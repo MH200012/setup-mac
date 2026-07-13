@@ -1,0 +1,22 @@
+{
+  "launchOnLogin": true,
+  "showInMenuBar": true,
+  "hideFromDock": true,
+  "theme": "system",
+  "windowMode": "floating",
+  "hotkey": "Command+Space",
+  "enableClipboardHistory": true,
+  "enableWindowManagement": true,
+  "enableCalculator": true,
+  "enableQuicklinks": true,
+  "enableSnippets": true,
+  "enableAI": true,
+  "enableEmojiSearch": true,
+  "enableFileSearch": true,
+  "enableApplicationSearch": true,
+  "enableCommandSearch": true,
+  "preferredBrowser": "default",
+  "preferredTerminal": "ghostty",
+  "preferredEditor": "visual-studio-code",
+  "developerMode": true
+}

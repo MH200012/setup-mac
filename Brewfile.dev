@@ -1,0 +1,57 @@
+###############################################################################
+# Development
+###############################################################################
+
+brew "cmake"
+
+brew "make"
+
+brew "llvm"
+
+brew "pkg-config"
+
+brew "git-lfs"
+
+brew "git-delta"
+
+brew "shellcheck"
+
+brew "shfmt"
+
+brew "pre-commit"
+
+brew "act"
+
+brew "docker-compose"
+
+brew "k9s"
+
+brew "helm"
+
+brew "terraform"
+
+brew "ansible"
+
+brew "font-jetbrains-mono-nerd-font"
+brew "font-hack-nerd-font"
+brew "font-fira-code-nerd-font"
+
+###############################################################################
+# Editors
+###############################################################################
+
+cask "visual-studio-code"
+
+cask "cursor"
+
+cask "tableplus"
+
+cask "iterm2"
+
+###############################################################################
+# Containers
+###############################################################################
+
+cask "orbstack"
+
+###############################################################################

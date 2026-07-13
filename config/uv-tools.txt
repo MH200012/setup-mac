@@ -1,0 +1,6 @@
+ruff
+basedpyright
+black
+ipython
+jupyterlab
+pre-commit

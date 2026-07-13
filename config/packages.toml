@@ -1,0 +1,13 @@
+[brew]
+
+core = true
+
+dev = true
+
+ai = true
+
+database = true
+
+cloud = true
+
+optional = false

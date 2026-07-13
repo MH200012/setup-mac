@@ -1,0 +1,5 @@
+{
+  "cache_dir": "~/.cache/huggingface",
+  "token_storage": "keyring",
+  "telemetry": false
+}

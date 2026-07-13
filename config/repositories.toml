@@ -1,0 +1,83 @@
+github_user = "MH200012"
+
+workspace = "$HOME/Developer"
+
+[[repository]]
+name = "dotfiles"
+visibility = "public"
+description = "Personal dotfiles"
+
+[[repository]]
+name = "setup-mac"
+visibility = "public"
+description = "Mac bootstrap environment"
+
+[[repository]]
+name = "templates"
+visibility = "public"
+description = "Project templates"
+
+[[repository]]
+name = "python-utils"
+visibility = "public"
+description = "Common Python utilities"
+
+[[repository]]
+name = "ai-utils"
+visibility = "public"
+description = "AI utility library"
+
+[[repository]]
+name = "teradata-utils"
+visibility = "private"
+description = "Teradata utilities"
+
+[[repository]]
+name = "notebooks"
+visibility = "public"
+description = "Jupyter notebooks"
+
+[[repository]]
+name = "llm-examples"
+visibility = "public"
+description = "LLM examples"
+
+[[repository]]
+name = "rag-examples"
+visibility = "public"
+description = "RAG examples"
+
+[[repository]]
+name = "ml-examples"
+visibility = "public"
+description = "Machine Learning examples"
+
+[[repository]]
+name = "mcp-servers"
+visibility = "public"
+description = "MCP Servers"
+
+[[repository]]
+name = "docker-images"
+visibility = "public"
+description = "Docker images"
+
+[[repository]]
+name = "kubernetes"
+visibility = "public"
+description = "Kubernetes manifests"
+
+[[repository]]
+name = "terraform"
+visibility = "public"
+description = "Terraform"
+
+[[repository]]
+name = "github-actions"
+visibility = "public"
+description = "Reusable GitHub Actions"
+
+[[repository]]
+name = "docs"
+visibility = "private"
+description = "Personal knowledge base"

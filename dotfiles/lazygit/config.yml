@@ -1,0 +1,40 @@
+gui:
+  language: "en"
+  theme:
+    activeBorderColor:
+      - blue
+      - bold
+    inactiveBorderColor:
+      - white
+    selectedLineBgColor:
+      - default
+    cherryPickedCommitBgColor:
+      - cyan
+    cherryPickedCommitFgColor:
+      - blue
+    unstagedChangesColor:
+      - yellow
+
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
+
+refresher:
+  refreshInterval: 5
+
+update:
+  method: never
+
+notARepository: "skip"
+
+os:
+  editPreset: "vscode"
+
+quitOnTopLevelReturn: false
+
+disableStartupPopups: true
+
+promptToReturnFromSubprocess: false
+
+customCommands: []

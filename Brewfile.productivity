@@ -1,0 +1,27 @@
+cask "raycast"
+
+cask "rectangle"
+
+cask "maccy"
+
+cask "shottr"
+
+cask "dropover"
+
+cask "popclip"
+
+cask "betterdisplay"
+
+cask "obsidian"
+
+cask "notion"
+
+cask "onfigure_lazygit”
+
+cask "1password"
+
+cask "1password-cli"
+
+cask "things"
+
+cask "trello"
