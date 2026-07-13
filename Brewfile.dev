@@ -28,13 +28,7 @@ brew "k9s"
 
 brew "helm"
 
-brew "terraform"
-
-brew "ansible"
-
-brew "font-jetbrains-mono-nerd-font"
-brew "font-hack-nerd-font"
-brew "font-fira-code-nerd-font"
+cask "warp"
 
 ###############################################################################
 # Editors
@@ -44,7 +38,7 @@ cask "visual-studio-code"
 
 cask "cursor"
 
-cask "tableplus"
+cask "ghostty"
 
 cask "iterm2"
 

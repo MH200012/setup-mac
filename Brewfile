@@ -2,10 +2,10 @@
 # Homebrew
 ###############################################################################
 
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "homebrew/services"
+"homebrew/bundle"
+"homebrew/cask"
+"homebrew/core"
+"homebrew/services"
 
 ###############################################################################
 # CLI
@@ -16,74 +16,32 @@ brew "gh"
 brew "git-lfs"
 brew "wget"
 brew "curl"
-
 brew "mise"
 brew "uv"
-
 brew "tree"
 brew "jq"
 brew "yq"
-
 brew "ripgrep"
 brew "fd"
 brew "fzf"
 brew "bat"
 brew "eza"
-
 brew "gnu-sed"
 brew "coreutils"
-
 brew "openssl"
-
 brew "gnupg"
-
 brew "watch"
-
 brew "htop"
-
 brew "tmux"
-
 brew "zoxide"
-
 brew "direnv"
-
 brew "mas"
 
 ###############################################################################
 # Fonts
 ###############################################################################
 
-tap "homebrew/cask-fonts"
-
 cask "font-hack-nerd-font"
-
-###############################################################################
-# Productivity
-###############################################################################
-
-cask "raycast"
-
-cask "rectangle"
-
-cask "maccy"
-
-cask "shottr"
-
-cask "stats"
-
-cask "dropover"
-
-cask "bettertouchtool"
-
-cask "1password"
-
-###############################################################################
-# Terminal
-###############################################################################
-
-cask "ghostty"
-
-cask "warp"
 
 ###############################################################################
 # Browser
@@ -93,33 +51,17 @@ cask "google-chrome"
 
 cask "firefox"
 
-###############################################################################
-# Communication
-###############################################################################
-
-cask "slack"
-
-cask "discord"
-
-cask "zoom"
+cask "arc"
 
 ###############################################################################
 # Utilities
 ###############################################################################
 
 cask "devtoys"
-
 cask "appcleaner"
-
 cask "aldente"
-
-###############################################################################
-# Notes
-###############################################################################
-
-cask "obsidian"
-
-cask "notion"
+cask "keka"
+cask "google-japanese-ime"
 
 ###############################################################################
 # Finder

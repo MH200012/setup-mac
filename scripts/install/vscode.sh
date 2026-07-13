@@ -3,8 +3,25 @@
 ###############################################################################
 # VS Code Configuration
 ###############################################################################
+install_extension() {
 
-configure_vscode() {
+    local ext="$1"
+
+    if code --list-extensions | grep -iq "^${ext}$"; then
+        log_info "Already installed: ${ext}"
+        return
+    fi
+
+    log_info "Installing: ${ext}"
+
+    if code --install-extension "${ext}" --force; then
+        log_success "Installed: ${ext}"
+    else
+        log_warn "Skipped: ${ext}"
+    fi
+}
+
+install_vscode() {
 
     log_step "Configuring Visual Studio Code"
 
@@ -33,8 +50,6 @@ configure_vscode() {
         "ms-toolsai.jupyter-renderers"
 
         # GitHub
-        "GitHub.copilot"
-        "GitHub.copilot-chat"
         "GitHub.vscode-pull-request-github"
 
         # Docker
@@ -67,56 +82,9 @@ configure_vscode() {
 
         # Database
         "mtxr.sqltools"
-
-        # Terraform
-        "hashicorp.terraform"
     )
 
     local installed
     installed="$(code --list-extensions)"
-
-    for ext in "${extensions[@]}"; do
-        if echo "${installed}" | grep -iq "^${ext}$"; then
-            log_info "Already installed: ${ext}"
-        else
-            log_info "Installing: ${ext}"
-            code --install-extension "${ext}" --force
-        fi
-    done
-
-    #
-    # settings.json
-    #
-    local settings_source="${DOTFILES_DIR}/vscode/settings.json"
-    local settings_dest="${HOME}/Library/Application Support/Code/User/settings.json"
-
-    if [[ -f "${settings_source}" ]]; then
-
-        mkdir -p "$(dirname "${settings_dest}")"
-
-        cp "${settings_source}" "${settings_dest}"
-
-        log_info "Installed settings.json"
-
-    fi
-
-    #
-    # snippets
-    #
-    local snippet_source="${DOTFILES_DIR}/vscode/snippets"
-
-    local snippet_dest="${HOME}/Library/Application Support/Code/User/snippets"
-
-    if [[ -d "${snippet_source}" ]]; then
-
-        mkdir -p "${snippet_dest}"
-
-        cp -R "${snippet_source}/." "${snippet_dest}"
-
-        log_info "Installed snippets"
-
-    fi
-
-    log_success "VS Code configuration completed"
 
 }

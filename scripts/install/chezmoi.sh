@@ -52,8 +52,14 @@ initialize_chezmoi() {
 
         log_info "Initializing chezmoi..."
 
+        local github_user
+        local chezmoi_repo
+        
+        github_user="$(get_config github_user)"
+        chezmoi_repo="$(get_config chezmoi_repo)"
+
         chezmoi init \
-    "https://github.com/${GITHUB_USER}/${CHEZMOI_REPO}.git"
+    "https://github.com/${github_user}/${chezmoi_repo}.git"
 
     fi
 

@@ -14,8 +14,11 @@ set -Eeuo pipefail
 # Constants
 ################################################################################
 
-readonly ARCH="$(uname -m)"
-readonly OS="$(uname -s)"
+CPU_ARCH="$(uname -m)"
+OS_NAME="$(uname -s)"
+
+export CPU_ARCH
+export OS_NAME
 
 ################################################################################
 # Command Helpers
@@ -56,11 +59,11 @@ check_macos() {
 ################################################################################
 
 is_arm64() {
-    [[ "${ARCH}" == "arm64" ]]
+    [[ "${CPU_ARCH}" == "arm64" ]]
 }
 
 is_intel() {
-    [[ "${ARCH}" == "x86_64" ]]
+    [[ "${CPU_ARCH}" == "x86_64" ]]
 }
 
 check_architecture() {
@@ -314,6 +317,29 @@ wait_spinner() {
 
     printf "\r"
 
+}
+
+###############################################################################
+# Read repositories.toml
+###############################################################################
+
+readonly REPOSITORIES_CONFIG="${BOOTSTRAP_ROOT}/config/repositories.toml"
+
+get_config() {
+    local key="$1"
+
+    python3 - "$REPOSITORIES_CONFIG" "$key" <<'PY'
+import sys
+import tomllib
+
+config_file = sys.argv[1]
+key = sys.argv[2]
+
+with open(config_file, "rb") as f:
+    data = tomllib.load(f)
+
+print(data[key])
+PY
 }
 
 ################################################################################

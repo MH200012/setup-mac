@@ -122,6 +122,9 @@ chmod +x bootstrap.sh
 
 log "Running bootstrap.sh..."
 
-./bootstrap.sh
+if [[ ! -f bootstrap.sh ]]; then
+    echo "bootstrap.sh not found."
+    exit 1
+fi
 
 success "Environment setup completed."

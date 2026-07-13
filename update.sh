@@ -1,187 +1,42 @@
 #!/usr/bin/env bash
-#
-# ==============================================================================
-# Mac Bootstrap Update
-# ==============================================================================
-#
-# Update an existing macOS development environment.
-#
-# Usage:
-#
-#   ./update.sh
-#
-# ==============================================================================
 
 set -Eeuo pipefail
 
 ################################################################################
-# Paths
+# Root
 ################################################################################
 
 BOOTSTRAP_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly BOOTSTRAP_ROOT
 
 ################################################################################
-# Common Libraries
+# Common
 ################################################################################
 
-source "${BOOTSTRAP_ROOT}/scripts/common/log.sh"
-source "${BOOTSTRAP_ROOT}/scripts/common/util.sh"
+source "${BOOTSTRAP_ROOT}/scripts/common/init.sh"
 
 ################################################################################
-# Update Modules
+# Install scripts
 ################################################################################
 
-source "${BOOTSTRAP_ROOT}/scripts/update/homebrew.sh"
-source "${BOOTSTRAP_ROOT}/scripts/update/mise.sh"
-source "${BOOTSTRAP_ROOT}/scripts/update/uv.sh"
-source "${BOOTSTRAP_ROOT}/scripts/update/vscode.sh"
-source "${BOOTSTRAP_ROOT}/scripts/update/cursor.sh"
-source "${BOOTSTRAP_ROOT}/scripts/update/chezmoi.sh"
-source "${BOOTSTRAP_ROOT}/scripts/update/ai.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/homebrew.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/mise.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
 
-################################################################################
-# macOS
-################################################################################
+log_banner
 
-source "${BOOTSTRAP_ROOT}/scripts/macos/defaults.sh"
+log_step "Updating Homebrew"
+update_homebrew
 
-################################################################################
-# Doctor
-################################################################################
+log_step "Updating Homebrew Packages"
+brew upgrade
+brew upgrade --cask
+brew cleanup
 
-source "${BOOTSTRAP_ROOT}/scripts/doctor.sh"
+log_step "Updating mise"
+mise upgrade
 
-################################################################################
-# Error Handler
-################################################################################
+log_step "Updating uv Tools"
+uv tool upgrade --all
 
-on_error() {
-
-    local exit_code=$?
-
-    log_error "Update failed."
-    log_error "Exit code : ${exit_code}"
-
-    exit "${exit_code}"
-
-}
-
-trap on_error ERR
-
-################################################################################
-# Banner
-################################################################################
-
-banner() {
-
-cat <<EOF
-
-============================================================
-                  Mac Bootstrap Update
-============================================================
-
-Repository : mac-bootstrap
-
-============================================================
-
-EOF
-
-}
-
-################################################################################
-# Update
-################################################################################
-
-update() {
-
-    banner
-
-    ###########################################################################
-    # Environment
-    ###########################################################################
-
-    check_macos
-
-    check_architecture
-
-    check_internet
-
-    ensure_sudo
-
-    ###########################################################################
-    # Homebrew
-    ###########################################################################
-
-    log_step "Updating Homebrew"
-
-    update_homebrew
-
-    ###########################################################################
-    # Dotfiles
-    ###########################################################################
-
-    log_step "Updating chezmoi"
-
-    update_chezmoi
-
-    ###########################################################################
-    # Runtime
-    ###########################################################################
-
-    log_step "Updating mise"
-
-    update_mise
-
-    log_step "Updating uv"
-
-    update_uv
-
-    ###########################################################################
-    # Editors
-    ###########################################################################
-
-    log_step "Updating VS Code"
-
-    update_vscode
-
-    log_step "Updating Cursor"
-
-    update_cursor
-
-    ###########################################################################
-    # AI
-    ###########################################################################
-
-    log_step "Updating AI Tools"
-
-    update_ai
-
-    ###########################################################################
-    # macOS
-    ###########################################################################
-
-    log_step "Applying macOS Settings"
-
-    apply_macos_defaults
-
-    ###########################################################################
-    # Doctor
-    ###########################################################################
-
-    log_step "Running Doctor"
-
-    doctor
-
-    ###########################################################################
-    # Finish
-    ###########################################################################
-
-    log_success "Update completed successfully."
-
-}
-
-################################################################################
-# Main
-################################################################################
-
-update "$@"
+log_success "Update completed."

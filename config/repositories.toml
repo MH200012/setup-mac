@@ -1,4 +1,6 @@
 github_user = "MH200012"
+setup_repo = "setup-mac"
+chezmoi_repo = "dotfiles"
 
 workspace = "$HOME/Developer"
 
@@ -66,11 +68,6 @@ description = "Docker images"
 name = "kubernetes"
 visibility = "public"
 description = "Kubernetes manifests"
-
-[[repository]]
-name = "terraform"
-visibility = "public"
-description = "Terraform"
 
 [[repository]]
 name = "github-actions"

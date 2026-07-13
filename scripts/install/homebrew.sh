@@ -104,9 +104,15 @@ cleanup_homebrew() {
     log_info "Cleaning Homebrew..."
 
     brew cleanup
+    local rc=$?
 
-    log_success "Homebrew cleaned."
+    log_info "brew cleanup exit code = ${rc}"
 
+    if [[ $rc -eq 0 ]]; then
+        log_success "Homebrew cleaned."
+    else
+        log_warn "brew cleanup exited with ${rc}"
+    fi
 }
 
 ################################################################################
@@ -128,31 +134,25 @@ doctor_homebrew() {
 install_brew_packages() {
 
     local brewfiles=(
-        "Brewfile"
-        "Brewfile.dev"
-        "Brewfile.ai"
-        "Brewfile.database"
-        "Brewfile.cloud"
+        Brewfile
+        Brewfile.dev
+        Brewfile.ai
+        Brewfile.database
+        Brewfile.cloud
     )
 
     for file in "${brewfiles[@]}"; do
 
-        if [[ -f "${BOOTSTRAP_ROOT}/${file}" ]]; then
+        [[ ! -f "${BOOTSTRAP_ROOT}/${file}" ]] && continue
 
-            log_info "Installing ${file}"
+        log_info "Installing ${file}"
 
-            brew bundle \
-                --file "${BOOTSTRAP_ROOT}/${file}"
-
-        else
-
-            log_warn "${file} not found. Skipping."
-
+        if ! brew bundle --file "${BOOTSTRAP_ROOT}/${file}"; then
+            log_warn "${file} failed."
         fi
-
     done
-
 }
+
 
 ################################################################################
 # Verify

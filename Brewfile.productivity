@@ -6,8 +6,6 @@ cask "maccy"
 
 cask "shottr"
 
-cask "dropover"
-
 cask "popclip"
 
 cask "betterdisplay"
@@ -16,12 +14,38 @@ cask "obsidian"
 
 cask "notion"
 
+cask "notion-calendar"
+
 cask "onfigure_lazygit”
 
 cask "1password"
 
 cask "1password-cli"
 
+cask "stats"
+
 cask "things"
 
 cask "trello"
+
+cask "keka"
+
+cask "coteditor"
+
+###############################################################################
+# Notes
+###############################################################################
+
+cask "obsidian"
+
+cask "notion"
+
+###############################################################################
+# Communication
+###############################################################################
+
+cask "slack"
+
+cask "discord"
+
+cask "zoom"

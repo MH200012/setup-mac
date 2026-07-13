@@ -1,4 +1,4 @@
-configure_openwebui#!/usr/bin/env bash
+#!/usr/bin/env bash
 #
 # ==============================================================================
 # Mac Bootstrap
@@ -11,7 +11,7 @@ configure_openwebui#!/usr/bin/env bash
 #
 # ==============================================================================
 
-set -Eeuo pipefail
+set -Eeuxo pipefail
 
 ################################################################################
 # Paths
@@ -23,8 +23,7 @@ BOOTSTRAP_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Common Libraries
 ################################################################################
 
-source "${BOOTSTRAP_ROOT}/scripts/common/log.sh"
-source "${BOOTSTRAP_ROOT}/scripts/common/util.sh"
+source "${BOOTSTRAP_ROOT}/scripts/common/init.sh"
 
 ################################################################################
 # Install Modules
@@ -39,7 +38,7 @@ source "${BOOTSTRAP_ROOT}/scripts/install/mise.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/vscode.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/cursor.sh"
-source "${BOOTSTRAP_ROOT}/scripts/install/ai.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/github_cli.sh"
 
 ################################################################################
 # macOS
@@ -57,7 +56,13 @@ source "${BOOTSTRAP_ROOT}/scripts/folders/create.sh"
 # Doctor
 ################################################################################
 
-source "${BOOTSTRAP_ROOT}/scripts/doctor.sh"
+source "${BOOTSTRAP_ROOT}/scripts/doctor/doctor.sh"
+
+################################################################################
+# Common
+################################################################################
+
+source "${BOOTSTRAP_ROOT}/scripts/common/init.sh
 
 ################################################################################
 # Error Handler
@@ -66,8 +71,12 @@ source "${BOOTSTRAP_ROOT}/scripts/doctor.sh"
 on_error() {
 
     local exit_code=$?
+    local line="${BASH_LINENO[0]}"
+    local cmd="${BASH_COMMAND}"
 
     log_error "Bootstrap failed."
+    log_error "Line      : ${line}"
+    log_error "Command   : ${cmd}"
     log_error "Exit code : ${exit_code}"
 
     exit "${exit_code}"
@@ -89,21 +98,13 @@ cat <<EOF
 
 ============================================================
 
-Repository : mac-bootstrap
+Repository : setup-mac
 
 ============================================================
 
 EOF
 
 }
-
-################################################################################
-# Brew Bundle
-################################################################################
-
-log_step "Installing Homebrew"
-
-setup_homebrew
 
 ################################################################################
 # Bootstrap
@@ -145,13 +146,17 @@ bootstrap() {
 
     install_git
 
-    log_step "Installing GitHub CLI"
-    
-    setup_github_cli
+    log_step "GitHub CLI"
+
+    install_github_cli
 
     log_step "GitHub Authentication"
 
-    github_login
+    authenticate_github
+
+    log_step "Installing Homebrew"
+
+    setup_homebrew
 
     ###########################################################################
     # Dotfiles
@@ -160,27 +165,7 @@ bootstrap() {
     log_step "Installing chezmoi"
 
     setup_chezmoi
-    
-    ###########################################################################
-    # Brew
-    ###########################################################################
-
-    install_brew_packages
-
-    configure_git
-
-    configure_vscode
-
-    configure_raycast
-
-    configure_ollama
-
-    configure_gh
-
-    configure_huggingface
-
-    configure_mise
-    
+        
     ###########################################################################
     # Runtime
     ###########################################################################
@@ -188,6 +173,8 @@ bootstrap() {
     log_step "Installing mise"
 
     setup_mise
+    
+    configure_mise
 
     log_step "Installing uv"
 
@@ -199,7 +186,7 @@ bootstrap() {
 
     log_step "Creating Directory Structure"
 
-    create_developer_folders
+    create_folders
 
     ###########################################################################
     # macOS
@@ -222,52 +209,12 @@ bootstrap() {
     install_cursor
 
     ###########################################################################
-    # AI
-    ###########################################################################
-
-    log_step "Installing AI Tools"
-
-    install_ai_tools
-
-    ###########################################################################
     # Doctor
     ###########################################################################
 
     log_step "Running Diagnostics"
 
     doctor
-    
-    ###########################################################################
-    # Productivity
-    ###########################################################################
-    
-    configure_vscode
-    configure_raycast
-    configure_rectangle
-    configure_maccy
-    configure_shottr
-    configure_dropover
-    configure_popclip
-    configure_betterdisplay
-    configure_stats
-    configure_obsidian
-    configure_notion
-    configure_chatgpt
-    configure_claude
-    configure_ollama
-    configure_ghostty
-    configure_lazygit
-    configure_huggingface
-    configure_onepassword
-    configure_zsh
-    configure_starship
-    configure_orbstack
-    configure_openwebui
-    configure_tableplus
-    configure_iterm2
-    configure_things
-    configure_trello
-    configure_jupyter
     
     ###########################################################################
     # Finish
