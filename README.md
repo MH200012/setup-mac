@@ -1,8 +1,11 @@
 # 初期にGithubからセットアッププログラムを使用して、環境セットアップを行う方法
 
 git clone https://github.com/MH200012/setup-mac.git
+
 cd ~/Developer/setup-mac
+
 chmod +x install.sh bootstrap.sh
+
 ./install.sh
 
 # セットアッププログラム修正のGithubへの反映
