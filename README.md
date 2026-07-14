@@ -2,6 +2,10 @@
 
 git clone https://github.com/MH200012/setup-mac.git
 
+mkdir Developer
+
+mkdir Developer/setup-mac
+
 cd ~/Developer/setup-mac
 
 chmod +x install.sh bootstrap.sh
