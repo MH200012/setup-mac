@@ -22,6 +22,7 @@ source "${BOOTSTRAP_ROOT}/scripts/common/init.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/homebrew.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/mise.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/dotfiles.sh"
 
 log_banner
 
@@ -30,7 +31,6 @@ update_homebrew
 
 log_step "Updating Homebrew Packages"
 brew upgrade
-brew upgrade --cask
 brew cleanup
 
 log_step "Updating mise"
@@ -38,5 +38,8 @@ mise upgrade
 
 log_step "Updating uv Tools"
 uv tool upgrade --all
+
+log_step "Updating Dotfiles"
+update_dotfiles
 
 log_success "Update completed."

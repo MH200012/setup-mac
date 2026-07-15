@@ -1,35 +1,18 @@
 cask "raycast"
-
 cask "rectangle"
-
 cask "maccy"
-
 cask "shottr"
-
 cask "popclip"
-
 cask "betterdisplay"
-
 cask "obsidian"
-
 cask "notion"
-
 cask "notion-calendar"
-
-cask "onfigure_lazygit”
-
+cask "lazygit"
 cask "1password"
-
 cask "1password-cli"
-
 cask "stats"
-
-cask "things"
-
 cask "trello"
-
 cask "keka"
-
 cask "coteditor"
 
 ###############################################################################
@@ -37,7 +20,6 @@ cask "coteditor"
 ###############################################################################
 
 cask "obsidian"
-
 cask "notion"
 
 ###############################################################################
@@ -45,7 +27,5 @@ cask "notion"
 ###############################################################################
 
 cask "slack"
-
 cask "discord"
-
 cask "zoom"

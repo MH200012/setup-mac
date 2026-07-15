@@ -39,12 +39,16 @@ source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/vscode.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/cursor.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/github_cli.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/macwhisper.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/raycast.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/dotfiles.sh"
 
 ################################################################################
 # macOS
 ################################################################################
 
 source "${BOOTSTRAP_ROOT}/scripts/macos/defaults.sh"
+source "${BOOTSTRAP_ROOT}/scripts/macos/dock.sh"
 
 ################################################################################
 # Folder
@@ -57,12 +61,6 @@ source "${BOOTSTRAP_ROOT}/scripts/folders/create.sh"
 ################################################################################
 
 source "${BOOTSTRAP_ROOT}/scripts/doctor/doctor.sh"
-
-################################################################################
-# Common
-################################################################################
-
-source "${BOOTSTRAP_ROOT}/scripts/common/init.sh
 
 ################################################################################
 # Error Handler
@@ -157,6 +155,18 @@ bootstrap() {
     log_step "Installing Homebrew"
 
     setup_homebrew
+    
+    log_step "Installing Trello"
+    
+    setup_trello
+    
+    log_step "Installing Macwhisper"
+    
+    setup_macwhisper
+    
+    log_step "Installing Raycast"
+    
+    setup_raycast
 
     ###########################################################################
     # Dotfiles
@@ -165,6 +175,10 @@ bootstrap() {
     log_step "Installing chezmoi"
 
     setup_chezmoi
+    
+    log_step "Installing dotfiles
+    
+    setup_dotfiles
         
     ###########################################################################
     # Runtime
@@ -207,6 +221,12 @@ bootstrap() {
     log_step "Installing Cursor"
 
     install_cursor
+
+    ###########################################################################
+    # Desktop
+    ###########################################################################
+
+    setup_dock
 
     ###########################################################################
     # Doctor

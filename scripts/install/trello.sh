@@ -1,60 +1,102 @@
 #!/usr/bin/env bash
+#
+# ==============================================================================
+# Trello
+# ==============================================================================
+#
+# Install Trello Desktop.
+#
+# Homebrew Cask has been removed, so install from the official DMG.
+#
+# ==============================================================================
 
-###############################################################################
-# Trello Configuration
-###############################################################################
+set -Eeuo pipefail
 
-configure_trello() {
+################################################################################
+# Constants
+################################################################################
 
-    log_step "Configuring Trello"
+readonly TRELLO_APP="/Applications/Trello.app"
+readonly TRELLO_DMG="/tmp/Trello.dmg"
+readonly TRELLO_MOUNT="/Volumes/Trello"
 
-    local app="/Applications/Trello.app"
+# 最新版DMG
+readonly TRELLO_URL="https://desktop.trello.com/mac/download"
 
-    #
-    # Check Installation
-    #
-    if [[ ! -d "${app}" ]]; then
-        log_warn "Trello is not installed."
-        return 0
+################################################################################
+# Check
+################################################################################
+
+trello_exists() {
+
+    [[ -d "${TRELLO_APP}" ]]
+
+}
+
+################################################################################
+# Install
+################################################################################
+
+install_trello() {
+
+    if trello_exists; then
+        log_info "Trello already installed."
+        return
     fi
 
-    #
-    # Launch Trello
-    #
-    if ! pgrep -x "Trello" >/dev/null 2>&1; then
+    log_info "Downloading Trello..."
 
-        log_info "Launching Trello..."
+    curl -fsSL \
+        -o "${TRELLO_DMG}" \
+        "${TRELLO_URL}"
 
-        open -a Trello
+    log_info "Mounting DMG..."
 
-        sleep 5
+    hdiutil attach "${TRELLO_DMG}" \
+        -nobrowse \
+        -quiet
 
-    fi
+    log_info "Installing Trello..."
 
-    #
-    # Create Configuration Directory
-    #
-    mkdir -p "${HOME}/.config/trello"
+    cp -R \
+        "${TRELLO_MOUNT}/Trello.app" \
+        /Applications/
 
-    #
-    # Copy User Resources
-    #
-    local source="${DOTFILES_DIR}/trello"
+    log_info "Unmounting DMG..."
 
-    if [[ -d "${source}" ]]; then
+    hdiutil detach \
+        "${TRELLO_MOUNT}" \
+        -quiet
 
-        cp -R "${source}/." "${HOME}/.config/trello"
+    rm -f "${TRELLO_DMG}"
 
-        log_info "Installed Trello resources"
+    log_success "Trello installed."
 
+}
+
+################################################################################
+# Verify
+################################################################################
+
+verify_trello() {
+
+    if trello_exists; then
+        log_success "Trello verified."
     else
-
-        log_info "No Trello resources found"
-
+        log_error "Trello installation failed."
+        return 1
     fi
 
-    killall cfprefsd >/dev/null 2>&1 || true
+}
 
-    log_success "Trello configuration completed"
+################################################################################
+# Public
+################################################################################
+
+setup_trello() {
+
+    install_trello
+
+    verify_trello
 
 }

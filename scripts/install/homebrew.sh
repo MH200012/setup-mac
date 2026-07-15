@@ -139,6 +139,8 @@ install_brew_packages() {
         Brewfile.ai
         Brewfile.database
         Brewfile.cloud
+        Brewfile.optional
+        Brewfile.productivity
     )
 
     for file in "${brewfiles[@]}"; do
@@ -147,11 +149,14 @@ install_brew_packages() {
 
         log_info "Installing ${file}"
 
-        if ! brew bundle --file "${BOOTSTRAP_ROOT}/${file}"; then
-            log_warn "${file} failed."
+        if retry 3 brew bundle --file "${BOOTSTRAP_ROOT}/${file}"; then
+            log_success "${file} completed."
+        else
+            log_warn "${file} completed with warnings."
         fi
     done
 }
+
 
 
 ################################################################################
@@ -178,10 +183,11 @@ setup_homebrew() {
 
     install_brew_packages
 
-    cleanup_homebrew
+    verify_homebrew
 
     doctor_homebrew
 
-    verify_homebrew
+    cleanup_homebrew || true
 
 }
+

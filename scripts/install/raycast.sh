@@ -48,3 +48,25 @@ configure_raycast() {
     log_success "Raycast configuration completed"
 
 }
+
+install_raycast() {
+
+    if brew list --cask raycast >/dev/null 2>&1; then
+        log_info "Raycast already installed."
+        return
+    fi
+
+    log_step "Installing Raycast"
+
+    retry 3 brew install --cask raycast
+
+    log_success "Raycast installed"
+
+}
+
+setup_raycast() {
+
+    install_raycast
+    configure_raycast
+
+}

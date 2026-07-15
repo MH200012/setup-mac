@@ -3,29 +3,17 @@
 ###############################################################################
 
 brew "ollama"
-
 brew "ffmpeg"
-
 brew "sox"
-
 brew "imagemagick"
-
 brew "protobuf"
-
 brew "graphviz"
-
 brew "sqlite"
-
 brew "duckdb"
-
 brew "pandoc"
-
 brew "tesseract"
-
 brew "poppler"
-
 brew "libomp"
-
 brew "huggingface-cli"
 
 ###############################################################################
@@ -33,17 +21,11 @@ brew "huggingface-cli"
 ###############################################################################
 
 cask "chatgpt"
-
 cask "chatgpt-atlas"
-
 cask "claude"
-
 cask "open-webui"
-
 cask "jupyterlab-app"
-
 cask "lm-studio"
-
 cask "macwhisper"
 
 ###############################################################################

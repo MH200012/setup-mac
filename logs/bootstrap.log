@@ -1123,3 +1123,1154 @@
 2026-07-13 20:08:24 [STEP] Updating mise
 2026-07-13 20:08:24 [STEP] Updating uv Tools
 2026-07-13 20:08:25 [SUCCESS] Update completed.
+2026-07-14 15:10:45 [STEP] Checking macOS
+2026-07-14 15:12:18 [STEP] Checking macOS
+2026-07-14 15:12:18 [STEP] Checking CPU Architecture
+2026-07-14 15:12:18 [INFO] Intel Mac detected.
+2026-07-14 15:12:18 [STEP] Checking Internet
+2026-07-14 15:12:18 [SUCCESS] Internet connection OK.
+2026-07-14 15:12:18 [STEP] Requesting sudo
+2026-07-14 15:12:19 [STEP] Installing Xcode Command Line Tools
+2026-07-14 15:12:19 [ERROR] Bootstrap failed.
+2026-07-14 15:12:19 [ERROR] Line      : 108
+2026-07-14 15:12:19 [INFO] Xcode Command Line Tools already installed.
+2026-07-14 15:12:19 [ERROR] Command   : sudo -n true
+2026-07-14 15:12:19 [STEP] Installing Git
+2026-07-14 15:12:19 [ERROR] Exit code : 1
+2026-07-14 15:12:19 [INFO] Git already installed.
+2026-07-14 15:12:19 [STEP] GitHub CLI
+2026-07-14 15:12:19 [INFO] GitHub CLI already installed.
+2026-07-14 15:12:19 [STEP] GitHub Authentication
+2026-07-14 15:12:20 [INFO] GitHub already authenticated.
+2026-07-14 15:12:20 [STEP] Installing Homebrew
+2026-07-14 15:12:20 [INFO] Homebrew already installed.
+2026-07-14 15:12:20 [INFO] Updating Homebrew...
+2026-07-14 15:13:21 [SUCCESS] Homebrew updated.
+2026-07-14 15:13:21 [INFO] Installing Brewfile
+2026-07-14 15:24:10 [WARN] Brewfile failed.
+2026-07-14 15:24:10 [INFO] Installing Brewfile.dev
+2026-07-14 15:32:37 [WARN] Brewfile.dev failed.
+2026-07-14 15:32:37 [INFO] Installing Brewfile.ai
+2026-07-14 15:34:24 [WARN] Brewfile.ai failed.
+2026-07-14 15:34:24 [INFO] Installing Brewfile.database
+2026-07-14 15:36:29 [INFO] Installing Brewfile.cloud
+2026-07-14 15:47:28 [WARN] Brewfile.cloud failed.
+2026-07-14 15:47:28 [INFO] Cleaning Homebrew...
+2026-07-14 15:47:41 [ERROR] Bootstrap failed.
+2026-07-14 15:47:41 [ERROR] Line      : 106
+2026-07-14 15:47:41 [ERROR] Command   : brew cleanup
+2026-07-14 15:47:41 [ERROR] Exit code : 1
+2026-07-14 15:47:48 [STEP] Checking macOS
+2026-07-14 15:47:48 [STEP] Checking CPU Architecture
+2026-07-14 15:47:48 [INFO] Intel Mac detected.
+2026-07-14 15:47:48 [STEP] Checking Internet
+2026-07-14 15:47:49 [SUCCESS] Internet connection OK.
+2026-07-14 15:47:49 [STEP] Requesting sudo
+2026-07-14 15:47:54 [STEP] Installing Xcode Command Line Tools
+2026-07-14 15:47:54 [INFO] Xcode Command Line Tools already installed.
+2026-07-14 15:47:54 [STEP] Installing Git
+2026-07-14 15:47:54 [INFO] Git already installed.
+2026-07-14 15:47:54 [STEP] GitHub CLI
+2026-07-14 15:47:54 [INFO] GitHub CLI already installed.
+2026-07-14 15:47:54 [STEP] GitHub Authentication
+2026-07-14 15:47:55 [INFO] GitHub already authenticated.
+2026-07-14 15:47:55 [STEP] Installing Homebrew
+2026-07-14 15:47:55 [INFO] Homebrew already installed.
+2026-07-14 15:47:55 [INFO] Updating Homebrew...
+2026-07-14 15:48:08 [SUCCESS] Homebrew updated.
+2026-07-14 15:48:08 [INFO] Installing Brewfile
+2026-07-14 15:51:02 [INFO] Installing Brewfile.dev
+2026-07-14 16:04:00 [WARN] Brewfile.dev failed.
+2026-07-14 16:04:00 [INFO] Installing Brewfile.ai
+2026-07-14 16:04:14 [WARN] Brewfile.ai failed.
+2026-07-14 16:04:14 [INFO] Installing Brewfile.database
+2026-07-14 16:04:17 [INFO] Installing Brewfile.cloud
+2026-07-14 16:07:39 [INFO] Cleaning Homebrew...
+2026-07-14 16:07:45 [ERROR] Bootstrap failed.
+2026-07-14 16:07:45 [ERROR] Line      : 106
+2026-07-14 16:07:45 [ERROR] Command   : brew cleanup
+2026-07-14 16:07:45 [ERROR] Exit code : 1
+2026-07-14 16:14:38 [STEP] Checking macOS
+2026-07-14 16:14:38 [STEP] Checking CPU Architecture
+2026-07-14 16:14:38 [INFO] Intel Mac detected.
+2026-07-14 16:14:38 [STEP] Checking Internet
+2026-07-14 16:14:38 [SUCCESS] Internet connection OK.
+2026-07-14 16:14:38 [STEP] Requesting sudo
+2026-07-14 16:14:44 [STEP] Installing Xcode Command Line Tools
+2026-07-14 16:14:44 [INFO] Xcode Command Line Tools already installed.
+2026-07-14 16:14:44 [STEP] Installing Git
+2026-07-14 16:14:44 [INFO] Git already installed.
+2026-07-14 16:14:44 [STEP] GitHub CLI
+2026-07-14 16:14:44 [INFO] GitHub CLI already installed.
+2026-07-14 16:14:44 [STEP] GitHub Authentication
+2026-07-14 16:14:44 [INFO] GitHub already authenticated.
+2026-07-14 16:14:44 [STEP] Installing Homebrew
+2026-07-14 16:14:44 [INFO] Homebrew already installed.
+2026-07-14 16:14:45 [INFO] Updating Homebrew...
+2026-07-14 16:14:48 [SUCCESS] Homebrew updated.
+2026-07-14 16:14:48 [INFO] Installing Brewfile
+2026-07-14 16:15:00 [WARN] Brewfile failed.
+2026-07-14 16:15:00 [INFO] Installing Brewfile.dev
+2026-07-14 16:19:46 [WARN] Brewfile.dev failed.
+2026-07-14 16:19:46 [INFO] Installing Brewfile.ai
+2026-07-14 16:20:00 [WARN] Brewfile.ai failed.
+2026-07-14 16:20:00 [INFO] Installing Brewfile.database
+2026-07-14 16:20:04 [INFO] Installing Brewfile.cloud
+2026-07-14 16:20:08 [INFO] Running brew doctor...
+2026-07-14 16:20:18 [INFO] Cleaning Homebrew...
+2026-07-14 16:20:26 [INFO] brew cleanup exit code = 1
+2026-07-14 16:20:26 [WARN] brew cleanup exited with 1
+2026-07-14 16:20:26 [STEP] Installing chezmoi
+2026-07-14 16:20:26 [INFO] Installing chezmoi...
+2026-07-14 16:20:39 [SUCCESS] chezmoi installed.
+2026-07-14 16:20:39 [INFO] Initializing chezmoi...
+2026-07-14 16:20:46 [INFO] Applying dotfiles...
+2026-07-14 16:20:47 [SUCCESS] Dotfiles applied.
+2026-07-14 16:20:47 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-14 16:20:47 [STEP] Installing mise
+2026-07-14 16:20:47 [INFO] mise already installed.
+2026-07-14 16:20:47 [INFO] Configuring mise...
+2026-07-14 16:20:47 [SUCCESS] mise shell configuration added.
+2026-07-14 16:20:47 [INFO] Installing runtimes from .mise.toml...
+2026-07-14 16:22:02 [SUCCESS] All runtimes installed.
+2026-07-14 16:22:02 [INFO] 2026.7.5 macos-x64 (2026-07-09)
+2026-07-14 16:22:02 [INFO] mise shell configuration already exists.
+2026-07-14 16:22:02 [STEP] Installing uv
+2026-07-14 16:22:02 [INFO] uv already installed.
+2026-07-14 16:22:02 [INFO] Installing Python CLI tools...
+2026-07-14 16:22:02 [INFO] Installing ruff
+2026-07-14 16:22:09 [INFO] Installing basedpyright
+2026-07-14 16:22:16 [INFO] Installing black
+2026-07-14 16:22:16 [INFO] Installing ipython
+2026-07-14 16:22:23 [INFO] Installing jupyterlab
+2026-07-14 16:22:27 [SUCCESS] Python CLI tools installed.
+2026-07-14 16:22:27 [INFO] uv 0.11.28 (Homebrew 2026-07-07 x86_64-apple-darwin)
+2026-07-14 16:22:27 [STEP] Creating Directory Structure
+2026-07-14 16:22:27 [STEP] Creating workspace folders
+2026-07-14 16:22:27 [SUCCESS] Workspace folders created.
+2026-07-14 16:22:27 [STEP] Applying macOS Settings
+2026-07-14 16:22:27 [STEP] Applying macOS defaults
+2026-07-14 16:22:28 [INFO] Configuring Safari
+2026-07-14 16:22:28 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-14 16:22:28 [SUCCESS] macOS defaults applied.
+2026-07-14 16:22:28 [STEP] Installing VS Code Extensions
+2026-07-14 16:22:28 [STEP] Configuring Visual Studio Code
+2026-07-14 16:23:06 [STEP] Installing Cursor
+2026-07-14 16:23:06 [STEP] Installing Cursor
+2026-07-14 16:24:48 [SUCCESS] Cursor installed.
+2026-07-14 16:24:48 [ERROR] Bootstrap failed.
+2026-07-14 16:24:48 [ERROR] Line      : 209
+2026-07-14 16:24:48 [ERROR] Command   : setup_dock
+2026-07-14 16:24:48 [ERROR] Exit code : 127
+2026-07-14 16:28:45 [STEP] Checking macOS
+2026-07-14 16:28:45 [STEP] Checking CPU Architecture
+2026-07-14 16:28:45 [INFO] Intel Mac detected.
+2026-07-14 16:28:45 [STEP] Checking Internet
+2026-07-14 16:28:45 [SUCCESS] Internet connection OK.
+2026-07-14 16:28:45 [STEP] Requesting sudo
+2026-07-14 16:28:52 [STEP] Installing Xcode Command Line Tools
+2026-07-14 16:28:52 [INFO] Xcode Command Line Tools already installed.
+2026-07-14 16:28:52 [STEP] Installing Git
+2026-07-14 16:28:52 [INFO] Git already installed.
+2026-07-14 16:28:52 [STEP] GitHub CLI
+2026-07-14 16:28:52 [INFO] GitHub CLI already installed.
+2026-07-14 16:28:52 [STEP] GitHub Authentication
+2026-07-14 16:28:52 [INFO] GitHub already authenticated.
+2026-07-14 16:28:52 [STEP] Installing Homebrew
+2026-07-14 16:28:52 [INFO] Homebrew already installed.
+2026-07-14 16:28:53 [INFO] Updating Homebrew...
+2026-07-14 16:28:57 [SUCCESS] Homebrew updated.
+2026-07-14 16:28:57 [INFO] Installing Brewfile
+2026-07-14 16:29:06 [INFO] Installing Brewfile.dev
+2026-07-14 16:29:37 [INFO] Installing Brewfile.ai
+2026-07-14 16:29:51 [WARN] Brewfile.ai failed.
+2026-07-14 16:29:51 [INFO] Installing Brewfile.database
+2026-07-14 16:29:55 [INFO] Installing Brewfile.cloud
+2026-07-14 16:29:58 [INFO] Running brew doctor...
+2026-07-14 16:30:08 [INFO] Cleaning Homebrew...
+2026-07-14 16:30:21 [INFO] brew cleanup exit code = 0
+2026-07-14 16:30:21 [SUCCESS] Homebrew cleaned.
+2026-07-14 16:30:21 [STEP] Installing chezmoi
+2026-07-14 16:30:21 [INFO] chezmoi already installed.
+2026-07-14 16:30:21 [INFO] Applying dotfiles...
+2026-07-14 16:30:22 [SUCCESS] Dotfiles applied.
+2026-07-14 16:30:22 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-14 16:30:22 [STEP] Installing mise
+2026-07-14 16:30:22 [INFO] mise already installed.
+2026-07-14 16:30:22 [INFO] mise shell configuration already exists.
+2026-07-14 16:30:22 [INFO] Installing runtimes from .mise.toml...
+2026-07-14 16:30:22 [SUCCESS] All runtimes installed.
+2026-07-14 16:30:22 [INFO] 2026.7.5 macos-x64 (2026-07-09)
+2026-07-14 16:30:22 [INFO] mise shell configuration already exists.
+2026-07-14 16:30:22 [STEP] Installing uv
+2026-07-14 16:30:22 [INFO] uv already installed.
+2026-07-14 16:30:22 [INFO] Installing Python CLI tools...
+2026-07-14 16:30:22 [INFO] Installing ruff
+2026-07-14 16:30:23 [INFO] Installing basedpyright
+2026-07-14 16:30:23 [INFO] Installing black
+2026-07-14 16:30:23 [INFO] Installing ipython
+2026-07-14 16:30:24 [INFO] Installing jupyterlab
+2026-07-14 16:30:26 [SUCCESS] Python CLI tools installed.
+2026-07-14 16:30:26 [INFO] uv 0.11.28 (Homebrew 2026-07-07 x86_64-apple-darwin)
+2026-07-14 16:30:26 [STEP] Creating Directory Structure
+2026-07-14 16:30:26 [STEP] Creating workspace folders
+2026-07-14 16:30:26 [SUCCESS] Workspace folders created.
+2026-07-14 16:30:26 [STEP] Applying macOS Settings
+2026-07-14 16:30:26 [STEP] Applying macOS defaults
+2026-07-14 16:30:27 [INFO] Configuring Safari
+2026-07-14 16:30:27 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-14 16:30:27 [SUCCESS] macOS defaults applied.
+2026-07-14 16:30:27 [STEP] Installing VS Code Extensions
+2026-07-14 16:30:27 [STEP] Configuring Visual Studio Code
+2026-07-14 16:30:41 [STEP] Installing Cursor
+2026-07-14 16:30:41 [SUCCESS] Cursor is already installed.
+2026-07-14 16:30:41 [STEP] Configuring Dock
+2026-07-14 16:30:42 [SUCCESS] Dock configured.
+2026-07-14 16:30:42 [STEP] Running Diagnostics
+2026-07-14 16:30:42 [STEP] Running environment checks
+2026-07-14 16:30:42 [SUCCESS] git: OK
+2026-07-14 16:30:42 [SUCCESS] gh: OK
+2026-07-14 16:30:42 [SUCCESS] brew: OK
+2026-07-14 16:30:42 [SUCCESS] mise: OK
+2026-07-14 16:30:42 [SUCCESS] uv: OK
+2026-07-14 16:30:42 [SUCCESS] python3: OK
+2026-07-14 16:30:42 [SUCCESS] VS Code CLI: OK
+2026-07-14 16:30:42 [SUCCESS] Cursor: OK
+2026-07-14 16:30:42 [SUCCESS] Environment check complete.
+2026-07-14 16:30:42 [SUCCESS] Bootstrap completed successfully.
+2026-07-14 16:31:29 [STEP] Updating Homebrew
+2026-07-14 16:31:29 [INFO] Updating Homebrew...
+2026-07-14 16:31:35 [SUCCESS] Homebrew updated.
+2026-07-14 16:31:35 [STEP] Updating Homebrew Packages
+2026-07-14 16:51:40 [STEP] Updating Homebrew
+2026-07-14 16:51:40 [INFO] Updating Homebrew...
+2026-07-14 16:51:43 [SUCCESS] Homebrew updated.
+2026-07-14 16:51:43 [STEP] Updating Homebrew Packages
+2026-07-14 21:04:52 [STEP] Updating Homebrew
+2026-07-14 21:04:52 [INFO] Updating Homebrew...
+2026-07-14 21:05:12 [SUCCESS] Homebrew updated.
+2026-07-14 21:05:12 [STEP] Updating Homebrew Packages
+2026-07-15 10:14:24 [STEP] Updating Homebrew
+2026-07-15 10:14:24 [INFO] Updating Homebrew...
+2026-07-15 10:14:41 [SUCCESS] Homebrew updated.
+2026-07-15 10:14:41 [STEP] Updating Homebrew Packages
+2026-07-15 10:19:21 [STEP] Checking macOS
+2026-07-15 10:19:21 [STEP] Checking CPU Architecture
+2026-07-15 10:19:21 [INFO] Apple Silicon detected.
+2026-07-15 10:19:21 [STEP] Checking Internet
+2026-07-15 10:19:22 [SUCCESS] Internet connection OK.
+2026-07-15 10:19:22 [STEP] Requesting sudo
+2026-07-15 10:19:25 [STEP] Installing Xcode Command Line Tools
+2026-07-15 10:19:25 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 10:19:25 [STEP] Installing Git
+2026-07-15 10:19:25 [INFO] Git already installed.
+2026-07-15 10:19:25 [STEP] GitHub CLI
+2026-07-15 10:19:25 [INFO] GitHub CLI already installed.
+2026-07-15 10:19:25 [STEP] GitHub Authentication
+2026-07-15 10:19:26 [INFO] GitHub already authenticated.
+2026-07-15 10:19:26 [STEP] Installing Homebrew
+2026-07-15 10:19:26 [INFO] Homebrew already installed.
+2026-07-15 10:19:26 [INFO] Updating Homebrew...
+2026-07-15 10:19:29 [SUCCESS] Homebrew updated.
+2026-07-15 10:19:29 [INFO] Installing Brewfile
+2026-07-15 10:23:39 [INFO] Installing Brewfile.dev
+2026-07-15 10:28:15 [WARN] Brewfile.dev failed.
+2026-07-15 10:28:15 [INFO] Installing Brewfile.ai
+2026-07-15 10:35:34 [INFO] Installing Brewfile.database
+2026-07-15 10:36:38 [INFO] Installing Brewfile.cloud
+2026-07-15 11:03:48 [INFO] Running brew doctor...
+2026-07-15 11:03:54 [INFO] Cleaning Homebrew...
+2026-07-15 11:04:17 [INFO] brew cleanup exit code = 0
+2026-07-15 11:04:17 [SUCCESS] Homebrew cleaned.
+2026-07-15 11:04:17 [STEP] Installing chezmoi
+2026-07-15 11:04:17 [INFO] chezmoi already installed.
+2026-07-15 11:04:17 [INFO] Applying dotfiles...
+2026-07-15 11:04:18 [SUCCESS] Dotfiles applied.
+2026-07-15 11:04:18 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-15 11:04:18 [STEP] Installing mise
+2026-07-15 11:04:18 [INFO] mise already installed.
+2026-07-15 11:04:18 [INFO] mise shell configuration already exists.
+2026-07-15 11:04:18 [INFO] Installing runtimes from .mise.toml...
+2026-07-15 11:04:20 [SUCCESS] All runtimes installed.
+2026-07-15 11:04:20 [INFO] 2026.7.6 macos-arm64 (2026-07-14)
+2026-07-15 11:04:20 [INFO] mise shell configuration already exists.
+2026-07-15 11:04:20 [STEP] Installing uv
+2026-07-15 11:04:20 [INFO] uv already installed.
+2026-07-15 11:04:20 [INFO] Installing Python CLI tools...
+2026-07-15 11:04:20 [INFO] Installing ruff
+2026-07-15 11:04:22 [INFO] Installing basedpyright
+2026-07-15 11:04:22 [INFO] Installing black
+2026-07-15 11:04:22 [INFO] Installing ipython
+2026-07-15 11:04:22 [INFO] Installing jupyterlab
+2026-07-15 11:04:23 [SUCCESS] Python CLI tools installed.
+2026-07-15 11:04:23 [INFO] uv 0.11.28 (Homebrew 2026-07-07 aarch64-apple-darwin)
+2026-07-15 11:04:23 [STEP] Creating Directory Structure
+2026-07-15 11:04:23 [STEP] Creating workspace folders
+2026-07-15 11:04:23 [SUCCESS] Workspace folders created.
+2026-07-15 11:04:23 [STEP] Applying macOS Settings
+2026-07-15 11:04:23 [STEP] Applying macOS defaults
+2026-07-15 11:04:24 [INFO] Configuring Safari
+2026-07-15 11:04:24 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-15 11:04:24 [SUCCESS] macOS defaults applied.
+2026-07-15 11:04:24 [STEP] Installing VS Code Extensions
+2026-07-15 11:04:24 [STEP] Configuring Visual Studio Code
+2026-07-15 11:04:33 [STEP] Installing Cursor
+2026-07-15 11:04:33 [SUCCESS] Cursor is already installed.
+2026-07-15 11:04:33 [STEP] Configuring Dock
+2026-07-15 11:04:33 [SUCCESS] Dock configured.
+2026-07-15 11:04:33 [STEP] Running Diagnostics
+2026-07-15 11:04:33 [STEP] Running environment checks
+2026-07-15 11:04:33 [SUCCESS] git: OK
+2026-07-15 11:04:33 [SUCCESS] gh: OK
+2026-07-15 11:04:33 [SUCCESS] brew: OK
+2026-07-15 11:04:33 [SUCCESS] mise: OK
+2026-07-15 11:04:33 [SUCCESS] uv: OK
+2026-07-15 11:04:33 [SUCCESS] python3: OK
+2026-07-15 11:04:33 [SUCCESS] VS Code CLI: OK
+2026-07-15 11:04:33 [SUCCESS] Cursor: OK
+2026-07-15 11:04:33 [SUCCESS] Environment check complete.
+2026-07-15 11:04:33 [SUCCESS] Bootstrap completed successfully.
+2026-07-15 11:11:10 [STEP] Checking macOS
+2026-07-15 11:11:10 [STEP] Checking CPU Architecture
+2026-07-15 11:11:10 [INFO] Apple Silicon detected.
+2026-07-15 11:11:10 [STEP] Checking Internet
+2026-07-15 11:11:10 [SUCCESS] Internet connection OK.
+2026-07-15 11:11:10 [STEP] Requesting sudo
+2026-07-15 11:11:13 [STEP] Installing Xcode Command Line Tools
+2026-07-15 11:11:13 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 11:11:13 [STEP] Installing Git
+2026-07-15 11:11:13 [INFO] Git already installed.
+2026-07-15 11:11:13 [STEP] GitHub CLI
+2026-07-15 11:11:13 [INFO] GitHub CLI already installed.
+2026-07-15 11:11:13 [STEP] GitHub Authentication
+2026-07-15 11:11:14 [INFO] GitHub already authenticated.
+2026-07-15 11:11:14 [STEP] Installing Homebrew
+2026-07-15 11:11:14 [INFO] Homebrew already installed.
+2026-07-15 11:11:14 [INFO] Updating Homebrew...
+2026-07-15 11:11:16 [SUCCESS] Homebrew updated.
+2026-07-15 11:11:16 [INFO] Installing Brewfile
+2026-07-15 11:11:20 [SUCCESS] Brewfile completed.
+2026-07-15 11:11:20 [INFO] Installing Brewfile.dev
+2026-07-15 11:15:42 [SUCCESS] Brewfile.dev completed.
+2026-07-15 11:15:42 [INFO] Installing Brewfile.ai
+2026-07-15 11:15:48 [SUCCESS] Brewfile.ai completed.
+2026-07-15 11:15:48 [INFO] Installing Brewfile.database
+2026-07-15 11:15:51 [SUCCESS] Brewfile.database completed.
+2026-07-15 11:15:51 [INFO] Installing Brewfile.cloud
+2026-07-15 11:15:54 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 11:15:54 [INFO] Installing Brewfile.optional
+2026-07-15 11:26:22 [SUCCESS] Brewfile.optional completed.
+2026-07-15 11:26:22 [INFO] Installing Brewfile.productivity
+2026-07-15 11:26:25 [WARN] Retry 1/3
+2026-07-15 11:26:29 [WARN] Retry 2/3
+2026-07-15 11:26:32 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 11:26:33 [INFO] Running brew doctor...
+2026-07-15 11:26:44 [INFO] Cleaning Homebrew...
+2026-07-15 11:26:58 [INFO] brew cleanup exit code = 0
+2026-07-15 11:26:58 [SUCCESS] Homebrew cleaned.
+2026-07-15 11:26:58 [STEP] Installing chezmoi
+2026-07-15 11:26:58 [INFO] chezmoi already installed.
+2026-07-15 11:26:58 [INFO] Applying dotfiles...
+2026-07-15 11:26:59 [SUCCESS] Dotfiles applied.
+2026-07-15 11:26:59 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-15 11:26:59 [STEP] Installing mise
+2026-07-15 11:26:59 [INFO] mise already installed.
+2026-07-15 11:26:59 [INFO] mise shell configuration already exists.
+2026-07-15 11:26:59 [INFO] Installing runtimes from .mise.toml...
+2026-07-15 11:26:59 [SUCCESS] All runtimes installed.
+2026-07-15 11:26:59 [INFO] 2026.7.6 macos-arm64 (2026-07-14)
+2026-07-15 11:26:59 [INFO] mise shell configuration already exists.
+2026-07-15 11:26:59 [STEP] Installing uv
+2026-07-15 11:26:59 [INFO] uv already installed.
+2026-07-15 11:26:59 [INFO] Installing Python CLI tools...
+2026-07-15 11:26:59 [INFO] Installing ruff
+2026-07-15 11:26:59 [INFO] Installing basedpyright
+2026-07-15 11:26:59 [INFO] Installing black
+2026-07-15 11:26:59 [INFO] Installing ipython
+2026-07-15 11:27:00 [INFO] Installing jupyterlab
+2026-07-15 11:27:00 [SUCCESS] Python CLI tools installed.
+2026-07-15 11:27:00 [INFO] uv 0.11.28 (Homebrew 2026-07-07 aarch64-apple-darwin)
+2026-07-15 11:27:00 [STEP] Creating Directory Structure
+2026-07-15 11:27:00 [STEP] Creating workspace folders
+2026-07-15 11:27:01 [SUCCESS] Workspace folders created.
+2026-07-15 11:27:01 [STEP] Applying macOS Settings
+2026-07-15 11:27:01 [STEP] Applying macOS defaults
+2026-07-15 11:27:01 [INFO] Configuring Safari
+2026-07-15 11:27:01 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-15 11:27:01 [SUCCESS] macOS defaults applied.
+2026-07-15 11:27:01 [STEP] Installing VS Code Extensions
+2026-07-15 11:27:01 [STEP] Configuring Visual Studio Code
+2026-07-15 11:27:07 [STEP] Installing Cursor
+2026-07-15 11:27:07 [SUCCESS] Cursor is already installed.
+2026-07-15 11:27:07 [STEP] Configuring Dock
+2026-07-15 11:27:07 [SUCCESS] Dock configured.
+2026-07-15 11:27:07 [STEP] Running Diagnostics
+2026-07-15 11:27:07 [STEP] Running environment checks
+2026-07-15 11:27:08 [SUCCESS] git: OK
+2026-07-15 11:27:08 [SUCCESS] gh: OK
+2026-07-15 11:27:08 [SUCCESS] brew: OK
+2026-07-15 11:27:08 [SUCCESS] mise: OK
+2026-07-15 11:27:08 [SUCCESS] uv: OK
+2026-07-15 11:27:08 [SUCCESS] python3: OK
+2026-07-15 11:27:08 [SUCCESS] VS Code CLI: OK
+2026-07-15 11:27:08 [SUCCESS] Cursor: OK
+2026-07-15 11:27:08 [SUCCESS] Environment check complete.
+2026-07-15 11:27:08 [SUCCESS] Bootstrap completed successfully.
+2026-07-15 11:56:05 [STEP] Checking macOS
+2026-07-15 11:56:05 [STEP] Checking CPU Architecture
+2026-07-15 11:56:05 [INFO] Apple Silicon detected.
+2026-07-15 11:56:05 [STEP] Checking Internet
+2026-07-15 11:56:05 [SUCCESS] Internet connection OK.
+2026-07-15 11:56:05 [STEP] Requesting sudo
+2026-07-15 11:56:17 [ERROR] Bootstrap failed.
+2026-07-15 11:56:17 [ERROR] Line      : 105
+2026-07-15 11:56:17 [ERROR] Command   : sudo -v
+2026-07-15 11:56:17 [ERROR] Exit code : 1
+2026-07-15 11:56:22 [STEP] Checking macOS
+2026-07-15 11:56:22 [STEP] Checking CPU Architecture
+2026-07-15 11:56:22 [INFO] Apple Silicon detected.
+2026-07-15 11:56:22 [STEP] Checking Internet
+2026-07-15 11:56:22 [SUCCESS] Internet connection OK.
+2026-07-15 11:56:22 [STEP] Requesting sudo
+2026-07-15 11:56:25 [STEP] Installing Xcode Command Line Tools
+2026-07-15 11:56:25 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 11:56:25 [STEP] Installing Git
+2026-07-15 11:56:25 [INFO] Git already installed.
+2026-07-15 11:56:25 [STEP] GitHub CLI
+2026-07-15 11:56:25 [INFO] GitHub CLI already installed.
+2026-07-15 11:56:25 [STEP] GitHub Authentication
+2026-07-15 11:56:25 [INFO] GitHub already authenticated.
+2026-07-15 11:56:25 [STEP] Installing Homebrew
+2026-07-15 11:56:25 [INFO] Homebrew already installed.
+2026-07-15 11:56:25 [INFO] Updating Homebrew...
+2026-07-15 11:56:28 [SUCCESS] Homebrew updated.
+2026-07-15 11:56:28 [INFO] Installing Brewfile
+2026-07-15 11:56:43 [SUCCESS] Brewfile completed.
+2026-07-15 11:56:43 [INFO] Installing Brewfile.dev
+2026-07-15 11:56:46 [SUCCESS] Brewfile.dev completed.
+2026-07-15 11:56:46 [INFO] Installing Brewfile.ai
+2026-07-15 11:56:49 [SUCCESS] Brewfile.ai completed.
+2026-07-15 11:56:49 [INFO] Installing Brewfile.database
+2026-07-15 11:56:53 [SUCCESS] Brewfile.database completed.
+2026-07-15 11:56:53 [INFO] Installing Brewfile.cloud
+2026-07-15 11:56:56 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 11:56:56 [INFO] Installing Brewfile.optional
+2026-07-15 11:57:01 [SUCCESS] Brewfile.optional completed.
+2026-07-15 11:57:01 [INFO] Installing Brewfile.productivity
+2026-07-15 11:57:04 [WARN] Retry 1/3
+2026-07-15 11:57:10 [WARN] Retry 2/3
+2026-07-15 11:57:15 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 11:57:15 [INFO] Running brew doctor...
+2026-07-15 11:57:29 [INFO] Cleaning Homebrew...
+2026-07-15 11:57:44 [INFO] brew cleanup exit code = 0
+2026-07-15 11:57:44 [SUCCESS] Homebrew cleaned.
+2026-07-15 11:57:44 [STEP] Installing Macwhisper
+2026-07-15 11:57:44 [INFO] MacWhisper already installed.
+2026-07-15 11:57:44 [INFO] Please configure MacWhisper manually.
+2026-07-15 11:57:44 [INFO] Settings → Dictation
+2026-07-15 11:57:44 [INFO] Settings → Live Captions
+2026-07-15 11:57:44 [INFO] Settings → Meeting Detection
+2026-07-15 11:57:44 [INFO] Settings → Global Shortcut
+2026-07-15 11:57:44 [STEP] Installing chezmoi
+2026-07-15 11:57:44 [INFO] chezmoi already installed.
+2026-07-15 11:57:44 [INFO] Applying dotfiles...
+2026-07-15 11:57:45 [SUCCESS] Dotfiles applied.
+2026-07-15 11:57:45 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-15 11:57:45 [STEP] Installing mise
+2026-07-15 11:57:45 [INFO] mise already installed.
+2026-07-15 11:57:45 [INFO] mise shell configuration already exists.
+2026-07-15 11:57:45 [INFO] Installing runtimes from .mise.toml...
+2026-07-15 11:57:45 [SUCCESS] All runtimes installed.
+2026-07-15 11:57:45 [INFO] 2026.7.6 macos-arm64 (2026-07-14)
+2026-07-15 11:57:45 [INFO] mise shell configuration already exists.
+2026-07-15 11:57:45 [STEP] Installing uv
+2026-07-15 11:57:45 [INFO] uv already installed.
+2026-07-15 11:57:45 [INFO] Installing Python CLI tools...
+2026-07-15 11:57:45 [INFO] Installing ruff
+2026-07-15 11:57:45 [INFO] Installing basedpyright
+2026-07-15 11:57:45 [INFO] Installing black
+2026-07-15 11:57:45 [INFO] Installing ipython
+2026-07-15 11:57:46 [INFO] Installing jupyterlab
+2026-07-15 11:57:47 [SUCCESS] Python CLI tools installed.
+2026-07-15 11:57:47 [INFO] uv 0.11.28 (Homebrew 2026-07-07 aarch64-apple-darwin)
+2026-07-15 11:57:47 [STEP] Creating Directory Structure
+2026-07-15 11:57:47 [STEP] Creating workspace folders
+2026-07-15 11:57:47 [SUCCESS] Workspace folders created.
+2026-07-15 11:57:47 [STEP] Applying macOS Settings
+2026-07-15 11:57:47 [STEP] Applying macOS defaults
+2026-07-15 11:57:48 [INFO] Configuring Safari
+2026-07-15 11:57:48 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-15 11:57:48 [SUCCESS] macOS defaults applied.
+2026-07-15 11:57:48 [STEP] Installing VS Code Extensions
+2026-07-15 11:57:48 [STEP] Configuring Visual Studio Code
+2026-07-15 11:57:59 [STEP] Installing Cursor
+2026-07-15 11:57:59 [SUCCESS] Cursor is already installed.
+2026-07-15 11:57:59 [STEP] Configuring Dock
+2026-07-15 11:57:59 [INFO] Adding Ghostty.app
+2026-07-15 11:57:59 [INFO] Adding Cursor.app
+2026-07-15 11:57:59 [INFO] Adding Visual Studio Code.app
+2026-07-15 11:57:59 [INFO] Adding Safari.app
+2026-07-15 11:58:00 [INFO] Adding Google Chrome.app
+2026-07-15 11:58:00 [INFO] Adding Arc.app
+2026-07-15 11:58:00 [INFO] Adding ChatGPT.app
+2026-07-15 11:58:00 [INFO] Adding Claude.app
+2026-07-15 11:58:00 [INFO] Adding Microsoft Teams.app
+2026-07-15 11:58:00 [INFO] Adding Microsoft Outlook.app
+2026-07-15 11:58:00 [INFO] Adding Microsoft Word.app
+2026-07-15 11:58:00 [INFO] Adding Microsoft Excel.app
+2026-07-15 11:58:00 [INFO] Adding Microsoft PowerPoint.app
+2026-07-15 11:58:00 [INFO] Adding Microsoft OneNote.app
+2026-07-15 11:58:00 [INFO] Adding Notion.app
+2026-07-15 11:58:00 [INFO] Adding Notion Calendar.app
+2026-07-15 11:58:00 [INFO] Adding MacWhisper.app
+2026-07-15 11:58:00 [INFO] Adding 1Password.app
+2026-07-15 11:58:00 [INFO] Adding OrbStack.app
+2026-07-15 11:58:00 [INFO] Adding TablePlus.app
+2026-07-15 11:58:00 [INFO] Adding Obsidian.app
+2026-07-15 11:58:00 [INFO] Adding Trello.app
+2026-07-15 11:58:00 [WARN] Things3.app not installed. Skipping.
+2026-07-15 11:58:00 [WARN] Raycast.app not installed. Skipping.
+2026-07-15 11:58:01 [SUCCESS] Dock configured.
+2026-07-15 11:58:01 [STEP] Running Diagnostics
+2026-07-15 11:58:01 [STEP] Running environment checks
+2026-07-15 11:58:01 [SUCCESS] git: OK
+2026-07-15 11:58:01 [SUCCESS] gh: OK
+2026-07-15 11:58:01 [SUCCESS] brew: OK
+2026-07-15 11:58:01 [SUCCESS] mise: OK
+2026-07-15 11:58:01 [SUCCESS] uv: OK
+2026-07-15 11:58:01 [SUCCESS] python3: OK
+2026-07-15 11:58:01 [SUCCESS] VS Code CLI: OK
+2026-07-15 11:58:01 [SUCCESS] Cursor: OK
+2026-07-15 11:58:01 [SUCCESS] Environment check complete.
+2026-07-15 11:58:01 [SUCCESS] Bootstrap completed successfully.
+2026-07-15 14:00:35 [STEP] Checking macOS
+2026-07-15 14:00:35 [STEP] Checking CPU Architecture
+2026-07-15 14:00:35 [INFO] Apple Silicon detected.
+2026-07-15 14:00:35 [STEP] Checking Internet
+2026-07-15 14:00:35 [SUCCESS] Internet connection OK.
+2026-07-15 14:00:35 [STEP] Requesting sudo
+2026-07-15 14:00:35 [STEP] Installing Xcode Command Line Tools
+2026-07-15 14:00:36 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 14:00:36 [STEP] Installing Git
+2026-07-15 14:00:36 [INFO] Git already installed.
+2026-07-15 14:00:36 [STEP] GitHub CLI
+2026-07-15 14:00:36 [INFO] GitHub CLI already installed.
+2026-07-15 14:00:36 [STEP] GitHub Authentication
+2026-07-15 14:00:36 [INFO] GitHub already authenticated.
+2026-07-15 14:00:36 [STEP] Installing Homebrew
+2026-07-15 14:00:36 [INFO] Homebrew already installed.
+2026-07-15 14:00:36 [INFO] Updating Homebrew...
+2026-07-15 14:00:58 [SUCCESS] Homebrew updated.
+2026-07-15 14:00:58 [INFO] Installing Brewfile
+2026-07-15 14:01:02 [SUCCESS] Brewfile completed.
+2026-07-15 14:01:02 [INFO] Installing Brewfile.dev
+2026-07-15 14:01:13 [SUCCESS] Brewfile.dev completed.
+2026-07-15 14:01:13 [INFO] Installing Brewfile.ai
+2026-07-15 14:01:16 [SUCCESS] Brewfile.ai completed.
+2026-07-15 14:01:16 [INFO] Installing Brewfile.database
+2026-07-15 14:01:19 [SUCCESS] Brewfile.database completed.
+2026-07-15 14:01:19 [INFO] Installing Brewfile.cloud
+2026-07-15 14:01:22 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 14:01:22 [INFO] Installing Brewfile.optional
+2026-07-15 14:01:25 [SUCCESS] Brewfile.optional completed.
+2026-07-15 14:01:25 [INFO] Installing Brewfile.productivity
+2026-07-15 14:01:27 [WARN] Retry 1/3
+2026-07-15 14:01:30 [WARN] Retry 2/3
+2026-07-15 14:01:36 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 14:01:36 [INFO] Running brew doctor...
+2026-07-15 14:01:50 [INFO] Cleaning Homebrew...
+2026-07-15 14:02:04 [INFO] brew cleanup exit code = 0
+2026-07-15 14:02:04 [SUCCESS] Homebrew cleaned.
+2026-07-15 14:02:04 [STEP] Installing Macwhisper
+2026-07-15 14:02:04 [INFO] MacWhisper already installed.
+2026-07-15 14:02:04 [INFO] Please configure MacWhisper manually.
+2026-07-15 14:02:04 [INFO] Settings → Dictation
+2026-07-15 14:02:04 [INFO] Settings → Live Captions
+2026-07-15 14:02:04 [INFO] Settings → Meeting Detection
+2026-07-15 14:02:04 [INFO] Settings → Global Shortcut
+2026-07-15 14:02:04 [STEP] Installing Raycast
+2026-07-15 14:02:04 [ERROR] Bootstrap failed.
+2026-07-15 14:02:04 [ERROR] Line      : 163
+2026-07-15 14:02:04 [ERROR] Command   : setup_raycast
+2026-07-15 14:02:04 [ERROR] Exit code : 127
+2026-07-15 14:08:50 [STEP] Checking macOS
+2026-07-15 14:08:50 [STEP] Checking CPU Architecture
+2026-07-15 14:08:50 [INFO] Apple Silicon detected.
+2026-07-15 14:08:50 [STEP] Checking Internet
+2026-07-15 14:08:50 [SUCCESS] Internet connection OK.
+2026-07-15 14:08:50 [STEP] Requesting sudo
+2026-07-15 14:08:50 [STEP] Installing Xcode Command Line Tools
+2026-07-15 14:08:50 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 14:08:50 [STEP] Installing Git
+2026-07-15 14:08:50 [INFO] Git already installed.
+2026-07-15 14:08:50 [STEP] GitHub CLI
+2026-07-15 14:08:50 [INFO] GitHub CLI already installed.
+2026-07-15 14:08:50 [STEP] GitHub Authentication
+2026-07-15 14:08:51 [INFO] GitHub already authenticated.
+2026-07-15 14:08:51 [STEP] Installing Homebrew
+2026-07-15 14:08:51 [INFO] Homebrew already installed.
+2026-07-15 14:08:51 [INFO] Updating Homebrew...
+2026-07-15 14:08:53 [SUCCESS] Homebrew updated.
+2026-07-15 14:08:53 [INFO] Installing Brewfile
+2026-07-15 14:09:00 [SUCCESS] Brewfile completed.
+2026-07-15 14:09:00 [INFO] Installing Brewfile.dev
+2026-07-15 14:09:02 [SUCCESS] Brewfile.dev completed.
+2026-07-15 14:09:02 [INFO] Installing Brewfile.ai
+2026-07-15 14:09:05 [SUCCESS] Brewfile.ai completed.
+2026-07-15 14:09:05 [INFO] Installing Brewfile.database
+2026-07-15 14:09:07 [SUCCESS] Brewfile.database completed.
+2026-07-15 14:09:07 [INFO] Installing Brewfile.cloud
+2026-07-15 14:09:11 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 14:09:11 [INFO] Installing Brewfile.optional
+2026-07-15 14:09:15 [SUCCESS] Brewfile.optional completed.
+2026-07-15 14:09:15 [INFO] Installing Brewfile.productivity
+2026-07-15 14:09:16 [WARN] Retry 1/3
+2026-07-15 14:09:19 [WARN] Retry 2/3
+2026-07-15 14:09:22 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 14:09:22 [INFO] Running brew doctor...
+2026-07-15 14:09:30 [INFO] Cleaning Homebrew...
+2026-07-15 14:09:42 [INFO] brew cleanup exit code = 0
+2026-07-15 14:09:42 [SUCCESS] Homebrew cleaned.
+2026-07-15 14:09:42 [STEP] Installing Macwhisper
+2026-07-15 14:09:42 [INFO] MacWhisper already installed.
+2026-07-15 14:09:42 [INFO] Please configure MacWhisper manually.
+2026-07-15 14:09:42 [INFO] Settings → Dictation
+2026-07-15 14:09:42 [INFO] Settings → Live Captions
+2026-07-15 14:09:42 [INFO] Settings → Meeting Detection
+2026-07-15 14:09:42 [INFO] Settings → Global Shortcut
+2026-07-15 14:09:42 [STEP] Installing Raycast
+2026-07-15 14:09:48 [STEP] Installing Raycast
+2026-07-15 14:10:05 [SUCCESS] Raycast installed
+2026-07-15 14:10:05 [STEP] Configuring Raycast
+2026-07-15 14:10:05 [INFO] Launching Raycast...
+2026-07-15 14:10:05 [ERROR] Bootstrap failed.
+2026-07-15 14:10:05 [ERROR] Line      : 26
+2026-07-15 14:10:05 [ERROR] Command   : open -a Raycast
+2026-07-15 14:10:05 [ERROR] Exit code : 1
+2026-07-15 14:17:50 [STEP] Checking macOS
+2026-07-15 14:17:50 [STEP] Checking CPU Architecture
+2026-07-15 14:17:50 [INFO] Apple Silicon detected.
+2026-07-15 14:17:50 [STEP] Checking Internet
+2026-07-15 14:17:50 [SUCCESS] Internet connection OK.
+2026-07-15 14:17:50 [STEP] Requesting sudo
+2026-07-15 14:17:51 [STEP] Installing Xcode Command Line Tools
+2026-07-15 14:17:51 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 14:17:51 [STEP] Installing Git
+2026-07-15 14:17:51 [INFO] Git already installed.
+2026-07-15 14:17:51 [STEP] GitHub CLI
+2026-07-15 14:17:51 [INFO] GitHub CLI already installed.
+2026-07-15 14:17:51 [STEP] GitHub Authentication
+2026-07-15 14:17:51 [INFO] GitHub already authenticated.
+2026-07-15 14:17:51 [STEP] Installing Homebrew
+2026-07-15 14:17:51 [INFO] Homebrew already installed.
+2026-07-15 14:17:51 [INFO] Updating Homebrew...
+2026-07-15 14:17:54 [SUCCESS] Homebrew updated.
+2026-07-15 14:17:54 [INFO] Installing Brewfile
+2026-07-15 14:18:07 [SUCCESS] Brewfile completed.
+2026-07-15 14:18:07 [INFO] Installing Brewfile.dev
+2026-07-15 14:18:11 [SUCCESS] Brewfile.dev completed.
+2026-07-15 14:18:11 [INFO] Installing Brewfile.ai
+2026-07-15 14:18:15 [SUCCESS] Brewfile.ai completed.
+2026-07-15 14:18:15 [INFO] Installing Brewfile.database
+2026-07-15 14:18:18 [SUCCESS] Brewfile.database completed.
+2026-07-15 14:18:18 [INFO] Installing Brewfile.cloud
+2026-07-15 14:18:21 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 14:18:21 [INFO] Installing Brewfile.optional
+2026-07-15 14:18:23 [SUCCESS] Brewfile.optional completed.
+2026-07-15 14:18:23 [INFO] Installing Brewfile.productivity
+2026-07-15 14:18:25 [WARN] Retry 1/3
+2026-07-15 14:18:28 [WARN] Retry 2/3
+2026-07-15 14:18:33 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 14:18:33 [INFO] Running brew doctor...
+2026-07-15 14:18:45 [INFO] Cleaning Homebrew...
+2026-07-15 14:18:59 [INFO] brew cleanup exit code = 0
+2026-07-15 14:18:59 [SUCCESS] Homebrew cleaned.
+2026-07-15 14:18:59 [STEP] Installing Macwhisper
+2026-07-15 14:18:59 [INFO] MacWhisper already installed.
+2026-07-15 14:18:59 [INFO] Please configure MacWhisper manually.
+2026-07-15 14:18:59 [INFO] Settings → Dictation
+2026-07-15 14:18:59 [INFO] Settings → Live Captions
+2026-07-15 14:18:59 [INFO] Settings → Meeting Detection
+2026-07-15 14:18:59 [INFO] Settings → Global Shortcut
+2026-07-15 14:18:59 [STEP] Installing Raycast
+2026-07-15 14:19:02 [INFO] Raycast already installed.
+2026-07-15 14:19:02 [STEP] Configuring Raycast
+2026-07-15 14:19:02 [INFO] Launching Raycast...
+2026-07-15 14:19:08 [INFO] Installed Raycast settings
+2026-07-15 14:19:08 [SUCCESS] Raycast configuration completed
+2026-07-15 14:19:08 [STEP] Installing chezmoi
+2026-07-15 14:19:08 [INFO] chezmoi already installed.
+2026-07-15 14:19:08 [INFO] Applying dotfiles...
+2026-07-15 14:19:09 [SUCCESS] Dotfiles applied.
+2026-07-15 14:19:09 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-15 14:19:09 [STEP] Installing mise
+2026-07-15 14:19:09 [INFO] mise already installed.
+2026-07-15 14:19:09 [INFO] mise shell configuration already exists.
+2026-07-15 14:19:09 [INFO] Installing runtimes from .mise.toml...
+2026-07-15 14:19:09 [SUCCESS] All runtimes installed.
+2026-07-15 14:19:09 [INFO] 2026.7.6 macos-arm64 (2026-07-14)
+2026-07-15 14:19:09 [INFO] mise shell configuration already exists.
+2026-07-15 14:19:09 [STEP] Installing uv
+2026-07-15 14:19:10 [INFO] uv already installed.
+2026-07-15 14:19:10 [INFO] Installing Python CLI tools...
+2026-07-15 14:19:10 [INFO] Installing ruff
+2026-07-15 14:19:10 [INFO] Installing basedpyright
+2026-07-15 14:19:10 [INFO] Installing black
+2026-07-15 14:19:11 [INFO] Installing ipython
+2026-07-15 14:19:11 [INFO] Installing jupyterlab
+2026-07-15 14:19:12 [SUCCESS] Python CLI tools installed.
+2026-07-15 14:19:13 [INFO] uv 0.11.28 (Homebrew 2026-07-07 aarch64-apple-darwin)
+2026-07-15 14:19:13 [STEP] Creating Directory Structure
+2026-07-15 14:19:13 [STEP] Creating workspace folders
+2026-07-15 14:19:13 [SUCCESS] Workspace folders created.
+2026-07-15 14:19:13 [STEP] Applying macOS Settings
+2026-07-15 14:19:13 [STEP] Applying macOS defaults
+2026-07-15 14:19:14 [INFO] Configuring Safari
+2026-07-15 14:19:14 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-15 14:19:14 [SUCCESS] macOS defaults applied.
+2026-07-15 14:19:14 [STEP] Installing VS Code Extensions
+2026-07-15 14:19:15 [STEP] Configuring Visual Studio Code
+2026-07-15 14:19:24 [STEP] Installing Cursor
+2026-07-15 14:19:24 [SUCCESS] Cursor is already installed.
+2026-07-15 14:19:24 [STEP] Configuring Dock
+2026-07-15 14:19:24 [INFO] Adding Ghostty.app
+2026-07-15 14:19:24 [INFO] Adding Cursor.app
+2026-07-15 14:19:25 [INFO] Adding Visual Studio Code.app
+2026-07-15 14:19:25 [INFO] Adding Safari.app
+2026-07-15 14:19:25 [INFO] Adding Google Chrome.app
+2026-07-15 14:19:25 [INFO] Adding Arc.app
+2026-07-15 14:19:25 [INFO] Adding ChatGPT.app
+2026-07-15 14:19:25 [INFO] Adding Claude.app
+2026-07-15 14:19:25 [WARN] Dbeaver-community.app not installed. Skipping.
+2026-07-15 14:19:25 [INFO] Adding Microsoft Teams.app
+2026-07-15 14:19:25 [INFO] Adding Microsoft Outlook.app
+2026-07-15 14:19:25 [INFO] Adding Microsoft PowerPoint.app
+2026-07-15 14:19:25 [INFO] Adding Microsoft OneNote.app
+2026-07-15 14:19:25 [INFO] Adding Notion.app
+2026-07-15 14:19:25 [INFO] Adding Notion Calendar.app
+2026-07-15 14:19:25 [INFO] Adding 1Password.app
+2026-07-15 14:19:25 [INFO] Adding Obsidian.app
+2026-07-15 14:19:25 [INFO] Adding Trello.app
+2026-07-15 14:19:25 [WARN] Things3.app not installed. Skipping.
+2026-07-15 14:19:25 [INFO] Adding Raycast.app
+2026-07-15 14:19:25 [SUCCESS] Dock configured.
+2026-07-15 14:19:25 [STEP] Running Diagnostics
+2026-07-15 14:19:25 [STEP] Running environment checks
+2026-07-15 14:19:25 [SUCCESS] git: OK
+2026-07-15 14:19:25 [SUCCESS] gh: OK
+2026-07-15 14:19:25 [SUCCESS] brew: OK
+2026-07-15 14:19:25 [SUCCESS] mise: OK
+2026-07-15 14:19:25 [SUCCESS] uv: OK
+2026-07-15 14:19:25 [SUCCESS] python3: OK
+2026-07-15 14:19:25 [SUCCESS] VS Code CLI: OK
+2026-07-15 14:19:25 [SUCCESS] Cursor: OK
+2026-07-15 14:19:26 [SUCCESS] Environment check complete.
+2026-07-15 14:19:26 [SUCCESS] Bootstrap completed successfully.
+2026-07-15 14:20:10 [STEP] Checking macOS
+2026-07-15 14:20:10 [STEP] Checking CPU Architecture
+2026-07-15 14:20:10 [INFO] Apple Silicon detected.
+2026-07-15 14:20:11 [STEP] Checking Internet
+2026-07-15 14:20:11 [SUCCESS] Internet connection OK.
+2026-07-15 14:20:11 [STEP] Requesting sudo
+2026-07-15 14:20:11 [STEP] Installing Xcode Command Line Tools
+2026-07-15 14:20:11 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 14:20:11 [STEP] Installing Git
+2026-07-15 14:20:11 [INFO] Git already installed.
+2026-07-15 14:20:11 [STEP] GitHub CLI
+2026-07-15 14:20:11 [INFO] GitHub CLI already installed.
+2026-07-15 14:20:11 [STEP] GitHub Authentication
+2026-07-15 14:20:11 [INFO] GitHub already authenticated.
+2026-07-15 14:20:11 [STEP] Installing Homebrew
+2026-07-15 14:20:11 [INFO] Homebrew already installed.
+2026-07-15 14:20:11 [INFO] Updating Homebrew...
+2026-07-15 14:20:13 [SUCCESS] Homebrew updated.
+2026-07-15 14:20:13 [INFO] Installing Brewfile
+2026-07-15 14:20:17 [SUCCESS] Brewfile completed.
+2026-07-15 14:20:17 [INFO] Installing Brewfile.dev
+2026-07-15 14:20:20 [SUCCESS] Brewfile.dev completed.
+2026-07-15 14:20:20 [INFO] Installing Brewfile.ai
+2026-07-15 14:20:23 [SUCCESS] Brewfile.ai completed.
+2026-07-15 14:20:23 [INFO] Installing Brewfile.database
+2026-07-15 14:20:27 [SUCCESS] Brewfile.database completed.
+2026-07-15 14:20:27 [INFO] Installing Brewfile.cloud
+2026-07-15 14:20:30 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 14:20:30 [INFO] Installing Brewfile.optional
+2026-07-15 14:20:33 [SUCCESS] Brewfile.optional completed.
+2026-07-15 14:20:33 [INFO] Installing Brewfile.productivity
+2026-07-15 14:20:37 [WARN] Retry 1/3
+2026-07-15 14:20:44 [WARN] Retry 2/3
+2026-07-15 14:20:51 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 14:20:51 [INFO] Running brew doctor...
+2026-07-15 14:20:57 [INFO] Cleaning Homebrew...
+2026-07-15 14:21:11 [INFO] brew cleanup exit code = 0
+2026-07-15 14:21:11 [SUCCESS] Homebrew cleaned.
+2026-07-15 14:21:11 [STEP] Installing Macwhisper
+2026-07-15 14:21:11 [INFO] MacWhisper already installed.
+2026-07-15 14:21:11 [INFO] Please configure MacWhisper manually.
+2026-07-15 14:21:11 [INFO] Settings → Dictation
+2026-07-15 14:21:11 [INFO] Settings → Live Captions
+2026-07-15 14:21:11 [INFO] Settings → Meeting Detection
+2026-07-15 14:21:11 [INFO] Settings → Global Shortcut
+2026-07-15 14:21:11 [STEP] Installing Raycast
+2026-07-15 14:21:13 [INFO] Raycast already installed.
+2026-07-15 14:21:13 [STEP] Configuring Raycast
+2026-07-15 14:21:13 [INFO] Installed Raycast settings
+2026-07-15 14:21:13 [SUCCESS] Raycast configuration completed
+2026-07-15 14:21:13 [STEP] Installing chezmoi
+2026-07-15 14:21:13 [INFO] chezmoi already installed.
+2026-07-15 14:21:13 [INFO] Applying dotfiles...
+2026-07-15 14:21:13 [SUCCESS] Dotfiles applied.
+2026-07-15 14:21:13 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-15 14:21:13 [STEP] Installing mise
+2026-07-15 14:21:13 [INFO] mise already installed.
+2026-07-15 14:21:13 [INFO] mise shell configuration already exists.
+2026-07-15 14:21:13 [INFO] Installing runtimes from .mise.toml...
+2026-07-15 14:21:14 [SUCCESS] All runtimes installed.
+2026-07-15 14:21:14 [INFO] 2026.7.6 macos-arm64 (2026-07-14)
+2026-07-15 14:21:14 [INFO] mise shell configuration already exists.
+2026-07-15 14:21:14 [STEP] Installing uv
+2026-07-15 14:21:14 [INFO] uv already installed.
+2026-07-15 14:21:14 [INFO] Installing Python CLI tools...
+2026-07-15 14:21:14 [INFO] Installing ruff
+2026-07-15 14:21:14 [INFO] Installing basedpyright
+2026-07-15 14:21:14 [INFO] Installing black
+2026-07-15 14:21:14 [INFO] Installing ipython
+2026-07-15 14:21:14 [INFO] Installing jupyterlab
+2026-07-15 14:21:14 [SUCCESS] Python CLI tools installed.
+2026-07-15 14:21:14 [INFO] uv 0.11.28 (Homebrew 2026-07-07 aarch64-apple-darwin)
+2026-07-15 14:21:14 [STEP] Creating Directory Structure
+2026-07-15 14:21:14 [STEP] Creating workspace folders
+2026-07-15 14:21:15 [SUCCESS] Workspace folders created.
+2026-07-15 14:21:15 [STEP] Applying macOS Settings
+2026-07-15 14:21:15 [STEP] Applying macOS defaults
+2026-07-15 14:21:16 [INFO] Configuring Safari
+2026-07-15 14:21:16 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-15 14:21:16 [SUCCESS] macOS defaults applied.
+2026-07-15 14:21:16 [STEP] Installing VS Code Extensions
+2026-07-15 14:21:16 [STEP] Configuring Visual Studio Code
+2026-07-15 14:21:18 [STEP] Installing Cursor
+2026-07-15 14:21:18 [SUCCESS] Cursor is already installed.
+2026-07-15 14:21:18 [STEP] Configuring Dock
+2026-07-15 14:21:19 [INFO] Adding Ghostty.app
+2026-07-15 14:21:19 [INFO] Adding Cursor.app
+2026-07-15 14:21:19 [INFO] Adding Visual Studio Code.app
+2026-07-15 14:21:19 [INFO] Adding Safari.app
+2026-07-15 14:21:19 [INFO] Adding Google Chrome.app
+2026-07-15 14:21:19 [INFO] Adding Arc.app
+2026-07-15 14:21:19 [INFO] Adding ChatGPT.app
+2026-07-15 14:21:20 [INFO] Adding Claude.app
+2026-07-15 14:21:20 [WARN] Dbeaver-community.app not installed. Skipping.
+2026-07-15 14:21:20 [INFO] Adding Microsoft Teams.app
+2026-07-15 14:21:20 [INFO] Adding Microsoft Outlook.app
+2026-07-15 14:21:20 [INFO] Adding Microsoft PowerPoint.app
+2026-07-15 14:21:20 [INFO] Adding Microsoft OneNote.app
+2026-07-15 14:21:20 [INFO] Adding Notion.app
+2026-07-15 14:21:20 [INFO] Adding Notion Calendar.app
+2026-07-15 14:21:20 [INFO] Adding 1Password.app
+2026-07-15 14:21:20 [INFO] Adding Obsidian.app
+2026-07-15 14:21:20 [INFO] Adding Trello.app
+2026-07-15 14:21:20 [WARN] Things3.app not installed. Skipping.
+2026-07-15 14:21:20 [INFO] Adding Raycast.app
+2026-07-15 14:21:20 [SUCCESS] Dock configured.
+2026-07-15 14:21:20 [STEP] Running Diagnostics
+2026-07-15 14:21:20 [STEP] Running environment checks
+2026-07-15 14:21:20 [SUCCESS] git: OK
+2026-07-15 14:21:20 [SUCCESS] gh: OK
+2026-07-15 14:21:20 [SUCCESS] brew: OK
+2026-07-15 14:21:20 [SUCCESS] mise: OK
+2026-07-15 14:21:20 [SUCCESS] uv: OK
+2026-07-15 14:21:20 [SUCCESS] python3: OK
+2026-07-15 14:21:20 [SUCCESS] VS Code CLI: OK
+2026-07-15 14:21:20 [SUCCESS] Cursor: OK
+2026-07-15 14:21:20 [SUCCESS] Environment check complete.
+2026-07-15 14:21:20 [SUCCESS] Bootstrap completed successfully.
+2026-07-15 14:31:17 [STEP] Checking macOS
+2026-07-15 14:31:17 [STEP] Checking CPU Architecture
+2026-07-15 14:31:17 [INFO] Apple Silicon detected.
+2026-07-15 14:31:17 [STEP] Checking Internet
+2026-07-15 14:31:17 [SUCCESS] Internet connection OK.
+2026-07-15 14:31:17 [STEP] Requesting sudo
+2026-07-15 14:31:17 [STEP] Installing Xcode Command Line Tools
+2026-07-15 14:31:17 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 14:31:17 [STEP] Installing Git
+2026-07-15 14:31:17 [INFO] Git already installed.
+2026-07-15 14:31:17 [STEP] GitHub CLI
+2026-07-15 14:31:17 [INFO] GitHub CLI already installed.
+2026-07-15 14:31:17 [STEP] GitHub Authentication
+2026-07-15 14:31:18 [INFO] GitHub already authenticated.
+2026-07-15 14:31:18 [STEP] Installing Homebrew
+2026-07-15 14:31:18 [INFO] Homebrew already installed.
+2026-07-15 14:31:18 [INFO] Updating Homebrew...
+2026-07-15 14:31:21 [SUCCESS] Homebrew updated.
+2026-07-15 14:31:21 [INFO] Installing Brewfile
+2026-07-15 14:31:32 [SUCCESS] Brewfile completed.
+2026-07-15 14:31:32 [INFO] Installing Brewfile.dev
+2026-07-15 14:31:36 [SUCCESS] Brewfile.dev completed.
+2026-07-15 14:31:36 [INFO] Installing Brewfile.ai
+2026-07-15 14:31:40 [SUCCESS] Brewfile.ai completed.
+2026-07-15 14:31:40 [INFO] Installing Brewfile.database
+2026-07-15 14:31:44 [SUCCESS] Brewfile.database completed.
+2026-07-15 14:31:44 [INFO] Installing Brewfile.cloud
+2026-07-15 14:31:47 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 14:31:47 [INFO] Installing Brewfile.optional
+2026-07-15 14:31:51 [SUCCESS] Brewfile.optional completed.
+2026-07-15 14:31:51 [INFO] Installing Brewfile.productivity
+2026-07-15 14:31:58 [WARN] Retry 1/3
+2026-07-15 14:32:06 [WARN] Retry 2/3
+2026-07-15 14:32:16 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 14:32:16 [INFO] Running brew doctor...
+2026-07-15 14:32:25 [INFO] Cleaning Homebrew...
+2026-07-15 14:32:40 [INFO] brew cleanup exit code = 0
+2026-07-15 14:32:40 [SUCCESS] Homebrew cleaned.
+2026-07-15 14:32:40 [STEP] Installing Macwhisper
+2026-07-15 14:32:40 [INFO] MacWhisper already installed.
+2026-07-15 14:32:40 [INFO] Please configure MacWhisper manually.
+2026-07-15 14:32:40 [INFO] Settings → Dictation
+2026-07-15 14:32:40 [INFO] Settings → Live Captions
+2026-07-15 14:32:40 [INFO] Settings → Meeting Detection
+2026-07-15 14:32:40 [INFO] Settings → Global Shortcut
+2026-07-15 14:32:40 [STEP] Installing Raycast
+2026-07-15 14:32:42 [INFO] Raycast already installed.
+2026-07-15 14:32:42 [STEP] Configuring Raycast
+2026-07-15 14:32:43 [INFO] Installed Raycast settings
+2026-07-15 14:32:43 [SUCCESS] Raycast configuration completed
+2026-07-15 14:32:43 [STEP] Installing chezmoi
+2026-07-15 14:32:43 [INFO] chezmoi already installed.
+2026-07-15 14:32:43 [INFO] Applying dotfiles...
+2026-07-15 14:32:43 [SUCCESS] Dotfiles applied.
+2026-07-15 14:32:43 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-15 14:32:43 [STEP] Installing mise
+2026-07-15 14:32:43 [INFO] mise already installed.
+2026-07-15 14:32:43 [INFO] mise shell configuration already exists.
+2026-07-15 14:32:43 [INFO] Installing runtimes from .mise.toml...
+2026-07-15 14:32:43 [SUCCESS] All runtimes installed.
+2026-07-15 14:32:43 [INFO] 2026.7.6 macos-arm64 (2026-07-14)
+2026-07-15 14:32:43 [INFO] mise shell configuration already exists.
+2026-07-15 14:32:43 [STEP] Installing uv
+2026-07-15 14:32:43 [INFO] uv already installed.
+2026-07-15 14:32:43 [INFO] Installing Python CLI tools...
+2026-07-15 14:32:43 [INFO] Installing ruff
+2026-07-15 14:32:43 [INFO] Installing basedpyright
+2026-07-15 14:32:43 [INFO] Installing black
+2026-07-15 14:32:43 [INFO] Installing ipython
+2026-07-15 14:32:44 [INFO] Installing jupyterlab
+2026-07-15 14:32:44 [SUCCESS] Python CLI tools installed.
+2026-07-15 14:32:44 [INFO] uv 0.11.28 (Homebrew 2026-07-07 aarch64-apple-darwin)
+2026-07-15 14:32:44 [STEP] Creating Directory Structure
+2026-07-15 14:32:44 [STEP] Creating workspace folders
+2026-07-15 14:32:44 [SUCCESS] Workspace folders created.
+2026-07-15 14:32:44 [STEP] Applying macOS Settings
+2026-07-15 14:32:44 [STEP] Applying macOS defaults
+2026-07-15 14:32:45 [INFO] Configuring Safari
+2026-07-15 14:32:45 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-15 14:32:46 [SUCCESS] macOS defaults applied.
+2026-07-15 14:32:46 [STEP] Installing VS Code Extensions
+2026-07-15 14:32:46 [STEP] Configuring Visual Studio Code
+2026-07-15 14:32:52 [STEP] Installing Cursor
+2026-07-15 14:32:52 [SUCCESS] Cursor is already installed.
+2026-07-15 14:32:52 [STEP] Configuring Dock
+2026-07-15 14:32:52 [INFO] Adding Ghostty.app
+2026-07-15 14:32:52 [INFO] Adding Cursor.app
+2026-07-15 14:32:52 [INFO] Adding Visual Studio Code.app
+2026-07-15 14:32:52 [INFO] Adding Safari.app
+2026-07-15 14:32:52 [INFO] Adding Google Chrome.app
+2026-07-15 14:32:52 [INFO] Adding Arc.app
+2026-07-15 14:32:52 [INFO] Adding ChatGPT.app
+2026-07-15 14:32:52 [INFO] Adding Claude.app
+2026-07-15 14:32:52 [INFO] Adding DBeaver.app
+2026-07-15 14:32:52 [INFO] Adding Microsoft Teams.app
+2026-07-15 14:32:52 [INFO] Adding Microsoft Outlook.app
+2026-07-15 14:32:52 [INFO] Adding Microsoft PowerPoint.app
+2026-07-15 14:32:52 [INFO] Adding Microsoft OneNote.app
+2026-07-15 14:32:52 [INFO] Adding Notion.app
+2026-07-15 14:32:52 [INFO] Adding Notion Calendar.app
+2026-07-15 14:32:52 [INFO] Adding 1Password.app
+2026-07-15 14:32:52 [INFO] Adding Obsidian.app
+2026-07-15 14:32:52 [INFO] Adding Trello.app
+2026-07-15 14:32:52 [WARN] Things3.app not installed. Skipping.
+2026-07-15 14:32:52 [INFO] Adding Raycast.app
+2026-07-15 14:32:53 [SUCCESS] Dock configured.
+2026-07-15 14:32:53 [STEP] Running Diagnostics
+2026-07-15 14:32:53 [STEP] Running environment checks
+2026-07-15 14:32:53 [SUCCESS] git: OK
+2026-07-15 14:32:53 [SUCCESS] gh: OK
+2026-07-15 14:32:53 [SUCCESS] brew: OK
+2026-07-15 14:32:53 [SUCCESS] mise: OK
+2026-07-15 14:32:53 [SUCCESS] uv: OK
+2026-07-15 14:32:53 [SUCCESS] python3: OK
+2026-07-15 14:32:53 [SUCCESS] VS Code CLI: OK
+2026-07-15 14:32:53 [SUCCESS] Cursor: OK
+2026-07-15 14:32:53 [SUCCESS] Environment check complete.
+2026-07-15 14:32:53 [SUCCESS] Bootstrap completed successfully.
+2026-07-15 14:49:27 [STEP] Checking macOS
+2026-07-15 14:49:27 [STEP] Checking CPU Architecture
+2026-07-15 14:49:27 [INFO] Apple Silicon detected.
+2026-07-15 14:49:27 [STEP] Checking Internet
+2026-07-15 14:49:27 [SUCCESS] Internet connection OK.
+2026-07-15 14:49:27 [STEP] Requesting sudo
+2026-07-15 14:49:27 [STEP] Installing Xcode Command Line Tools
+2026-07-15 14:49:27 [INFO] Xcode Command Line Tools already installed.
+2026-07-15 14:49:27 [STEP] Installing Git
+2026-07-15 14:49:27 [INFO] Git already installed.
+2026-07-15 14:49:27 [STEP] GitHub CLI
+2026-07-15 14:49:27 [INFO] GitHub CLI already installed.
+2026-07-15 14:49:27 [STEP] GitHub Authentication
+2026-07-15 14:49:27 [INFO] GitHub already authenticated.
+2026-07-15 14:49:27 [STEP] Installing Homebrew
+2026-07-15 14:49:28 [INFO] Homebrew already installed.
+2026-07-15 14:49:28 [INFO] Updating Homebrew...
+2026-07-15 14:49:30 [SUCCESS] Homebrew updated.
+2026-07-15 14:49:30 [INFO] Installing Brewfile
+2026-07-15 14:49:34 [SUCCESS] Brewfile completed.
+2026-07-15 14:49:34 [INFO] Installing Brewfile.dev
+2026-07-15 14:49:37 [SUCCESS] Brewfile.dev completed.
+2026-07-15 14:49:37 [INFO] Installing Brewfile.ai
+2026-07-15 14:49:41 [SUCCESS] Brewfile.ai completed.
+2026-07-15 14:49:41 [INFO] Installing Brewfile.database
+2026-07-15 14:49:44 [SUCCESS] Brewfile.database completed.
+2026-07-15 14:49:44 [INFO] Installing Brewfile.cloud
+2026-07-15 14:49:48 [SUCCESS] Brewfile.cloud completed.
+2026-07-15 14:49:48 [INFO] Installing Brewfile.optional
+2026-07-15 14:49:50 [SUCCESS] Brewfile.optional completed.
+2026-07-15 14:49:50 [INFO] Installing Brewfile.productivity
+2026-07-15 14:49:54 [WARN] Retry 1/3
+2026-07-15 14:50:00 [WARN] Retry 2/3
+2026-07-15 14:50:07 [WARN] Brewfile.productivity completed with warnings.
+2026-07-15 14:50:07 [INFO] Running brew doctor...
+2026-07-15 14:50:16 [INFO] Cleaning Homebrew...
+2026-07-15 14:50:33 [INFO] brew cleanup exit code = 0
+2026-07-15 14:50:33 [SUCCESS] Homebrew cleaned.
+2026-07-15 14:50:33 [STEP] Installing Macwhisper
+2026-07-15 14:50:33 [INFO] MacWhisper already installed.
+2026-07-15 14:50:33 [INFO] Please configure MacWhisper manually.
+2026-07-15 14:50:33 [INFO] Settings → Dictation
+2026-07-15 14:50:33 [INFO] Settings → Live Captions
+2026-07-15 14:50:33 [INFO] Settings → Meeting Detection
+2026-07-15 14:50:33 [INFO] Settings → Global Shortcut
+2026-07-15 14:50:33 [STEP] Installing Raycast
+2026-07-15 14:50:36 [INFO] Raycast already installed.
+2026-07-15 14:50:36 [STEP] Configuring Raycast
+2026-07-15 14:50:36 [INFO] Installed Raycast settings
+2026-07-15 14:50:36 [SUCCESS] Raycast configuration completed
+2026-07-15 14:50:36 [STEP] Installing chezmoi
+2026-07-15 14:50:36 [INFO] chezmoi already installed.
+2026-07-15 14:50:36 [INFO] Applying dotfiles...
+2026-07-15 14:50:36 [SUCCESS] Dotfiles applied.
+2026-07-15 14:50:36 [INFO] chezmoi version v2.71.0, commit bd880914c19817b03567573e474254ac2ad7d84a, built at 2026-07-07T23:29:09Z, built by Homebrew
+2026-07-15 14:50:36 [STEP] Installing mise
+2026-07-15 14:50:36 [INFO] mise already installed.
+2026-07-15 14:50:36 [INFO] mise shell configuration already exists.
+2026-07-15 14:50:36 [INFO] Installing runtimes from .mise.toml...
+2026-07-15 14:50:36 [SUCCESS] All runtimes installed.
+2026-07-15 14:50:36 [INFO] 2026.7.6 macos-arm64 (2026-07-14)
+2026-07-15 14:50:36 [INFO] mise shell configuration already exists.
+2026-07-15 14:50:36 [STEP] Installing uv
+2026-07-15 14:50:36 [INFO] uv already installed.
+2026-07-15 14:50:36 [INFO] Installing Python CLI tools...
+2026-07-15 14:50:36 [INFO] Installing ruff
+2026-07-15 14:50:36 [INFO] Installing basedpyright
+2026-07-15 14:50:36 [INFO] Installing black
+2026-07-15 14:50:36 [INFO] Installing ipython
+2026-07-15 14:50:36 [INFO] Installing jupyterlab
+2026-07-15 14:50:37 [SUCCESS] Python CLI tools installed.
+2026-07-15 14:50:37 [INFO] uv 0.11.28 (Homebrew 2026-07-07 aarch64-apple-darwin)
+2026-07-15 14:50:37 [STEP] Creating Directory Structure
+2026-07-15 14:50:37 [STEP] Creating workspace folders
+2026-07-15 14:50:37 [SUCCESS] Workspace folders created.
+2026-07-15 14:50:37 [STEP] Applying macOS Settings
+2026-07-15 14:50:37 [STEP] Applying macOS defaults
+2026-07-15 14:50:37 [INFO] Configuring Safari
+2026-07-15 14:50:37 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-15 14:50:38 [SUCCESS] macOS defaults applied.
+2026-07-15 14:50:38 [STEP] Installing VS Code Extensions
+2026-07-15 14:50:38 [STEP] Configuring Visual Studio Code
+2026-07-15 14:50:39 [STEP] Installing Cursor
+2026-07-15 14:50:39 [SUCCESS] Cursor is already installed.
+2026-07-15 14:50:39 [STEP] Configuring Dock
+2026-07-15 14:50:39 [INFO] Adding Ghostty.app
+2026-07-15 14:50:39 [INFO] Adding Cursor.app
+2026-07-15 14:50:39 [INFO] Adding Visual Studio Code.app
+2026-07-15 14:50:39 [INFO] Adding Safari.app
+2026-07-15 14:50:39 [INFO] Adding Google Chrome.app
+2026-07-15 14:50:40 [INFO] Adding Arc.app
+2026-07-15 14:50:40 [INFO] Adding ChatGPT.app
+2026-07-15 14:50:40 [INFO] Adding Claude.app
+2026-07-15 14:50:40 [INFO] Adding DBeaver.app
+2026-07-15 14:50:40 [INFO] Adding Microsoft Teams.app
+2026-07-15 14:50:40 [INFO] Adding Microsoft Outlook.app
+2026-07-15 14:50:40 [INFO] Adding Microsoft PowerPoint.app
+2026-07-15 14:50:40 [INFO] Adding Microsoft OneNote.app
+2026-07-15 14:50:40 [INFO] Adding Notion.app
+2026-07-15 14:50:40 [INFO] Adding Notion Calendar.app
+2026-07-15 14:50:40 [INFO] Adding 1Password.app
+2026-07-15 14:50:40 [INFO] Adding Obsidian.app
+2026-07-15 14:50:40 [INFO] Adding Trello.app
+2026-07-15 14:50:40 [WARN] Things3.app not installed. Skipping.
+2026-07-15 14:50:40 [INFO] Adding Raycast.app
+2026-07-15 14:50:40 [SUCCESS] Dock configured.
+2026-07-15 14:50:40 [STEP] Running Diagnostics
+2026-07-15 14:50:40 [STEP] Running environment checks
+2026-07-15 14:50:40 [SUCCESS] git: OK
+2026-07-15 14:50:40 [SUCCESS] gh: OK
+2026-07-15 14:50:40 [SUCCESS] brew: OK
+2026-07-15 14:50:40 [SUCCESS] mise: OK
+2026-07-15 14:50:40 [SUCCESS] uv: OK
+2026-07-15 14:50:40 [SUCCESS] python3: OK
+2026-07-15 14:50:40 [SUCCESS] VS Code CLI: OK
+2026-07-15 14:50:40 [SUCCESS] Cursor: OK
+2026-07-15 14:50:40 [SUCCESS] Environment check complete.
+2026-07-15 14:50:40 [SUCCESS] Bootstrap completed successfully.
+2026-07-15 16:13:30 [STEP] Updating Homebrew
+2026-07-15 16:13:30 [INFO] Updating Homebrew...
+2026-07-15 16:13:46 [SUCCESS] Homebrew updated.
+2026-07-15 16:13:46 [STEP] Updating Homebrew Packages
+2026-07-15 16:16:36 [STEP] Updating Homebrew
+2026-07-15 16:16:36 [INFO] Updating Homebrew...
+2026-07-15 16:16:38 [SUCCESS] Homebrew updated.
+2026-07-15 16:16:38 [STEP] Updating Homebrew Packages
+2026-07-15 16:23:01 [STEP] Updating Homebrew
+2026-07-15 16:23:01 [INFO] Updating Homebrew...
+2026-07-15 16:23:03 [SUCCESS] Homebrew updated.
+2026-07-15 16:23:03 [STEP] Updating Homebrew Packages
+2026-07-15 16:33:48 [STEP] Updating Homebrew
+2026-07-15 16:33:48 [INFO] Updating Homebrew...
+2026-07-15 16:33:50 [SUCCESS] Homebrew updated.
+2026-07-15 16:33:50 [STEP] Updating Homebrew Packages
+2026-07-15 16:34:07 [STEP] Updating mise
+2026-07-15 16:34:15 [STEP] Updating uv Tools
+2026-07-15 16:34:17 [STEP] Updating Dotfiles
+2026-07-15 16:34:17 [INFO] Updating dotfiles...
+2026-07-15 16:39:50 [SUCCESS] Dotfiles updated.
+2026-07-15 16:39:50 [SUCCESS] Update completed.
+2026-07-15 16:44:21 [STEP] Updating Homebrew
+2026-07-15 16:44:21 [INFO] Updating Homebrew...
+2026-07-15 16:44:26 [SUCCESS] Homebrew updated.
+2026-07-15 16:44:26 [STEP] Updating Homebrew Packages
+2026-07-15 16:44:45 [STEP] Updating mise
+2026-07-15 16:44:45 [STEP] Updating uv Tools
+2026-07-15 16:44:47 [STEP] Updating Dotfiles
+2026-07-15 16:44:47 [INFO] Updating dotfiles...
+2026-07-15 16:44:48 [WARN] Managed files have local modifications.
+2026-07-15 16:44:48 [WARN] Run 'chezmoi diff' to review the changes.
+2026-07-15 16:44:48 [SUCCESS] Update completed.
+2026-07-15 16:47:34 [STEP] Updating Homebrew
+2026-07-15 16:47:34 [INFO] Updating Homebrew...
+2026-07-15 16:47:36 [SUCCESS] Homebrew updated.
+2026-07-15 16:47:36 [STEP] Updating Homebrew Packages
+2026-07-15 16:48:03 [STEP] Updating mise
+2026-07-15 16:48:03 [STEP] Updating uv Tools
+2026-07-15 16:48:05 [STEP] Updating Dotfiles
+2026-07-15 16:48:05 [INFO] Updating dotfiles...
+2026-07-15 16:48:06 [WARN] Managed files have local modifications.
+2026-07-15 16:48:06 [WARN] Run 'chezmoi diff' to review the changes.
+2026-07-15 16:48:06 [SUCCESS] Update completed.
+2026-07-15 16:50:20 [STEP] Updating Homebrew
+2026-07-15 16:50:20 [INFO] Updating Homebrew...
+2026-07-15 16:50:22 [SUCCESS] Homebrew updated.
+2026-07-15 16:50:22 [STEP] Updating Homebrew Packages
+2026-07-15 16:50:40 [STEP] Updating mise
+2026-07-15 16:50:40 [STEP] Updating uv Tools
+2026-07-15 16:50:41 [STEP] Updating Dotfiles
+2026-07-15 16:50:41 [INFO] Updating dotfiles...
+2026-07-15 16:50:42 [SUCCESS] Dotfiles updated.
+2026-07-15 16:50:42 [SUCCESS] Update completed.

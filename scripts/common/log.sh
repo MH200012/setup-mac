@@ -16,14 +16,12 @@
 #
 # ==============================================================================
 
+#!/usr/bin/env bash
 set -Eeuo pipefail
 
-################################################################################
-# Configuration
-################################################################################
+: "${LOG_DIR:?LOG_DIR is not set}"
 
-LOG_DIR="${BOOTSTRAP_ROOT:-$(pwd)}/logs"
-LOG_FILE="${LOG_DIR}/bootstrap.log"
+readonly LOG_FILE="${LOG_DIR}/bootstrap.log"
 
 mkdir -p "${LOG_DIR}"
 

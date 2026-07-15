@@ -3,19 +3,11 @@
 ###############################################################################
 
 cask "vlc"
-
 cask "spotify"
-
-cask "docker"
-
 cask "postman"
-
 cask "wireshark"
-
 cask "visualvm"
-
 cask "orbstack"
-
 cask "ghostty"
 
 

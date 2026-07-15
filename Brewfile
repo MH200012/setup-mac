@@ -36,6 +36,7 @@ brew "tmux"
 brew "zoxide"
 brew "direnv"
 brew "mas"
+brew "dockutil"
 
 ###############################################################################
 # Fonts

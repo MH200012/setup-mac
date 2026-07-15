@@ -43,7 +43,7 @@ require_command() {
 ################################################################################
 
 is_macos() {
-    [[ "${OS}" == "Darwin" ]]
+    [[ "${OS_NAME}" == "Darwin" ]]
 }
 
 check_macos() {
@@ -104,12 +104,12 @@ ensure_sudo() {
 
     sudo -v
 
-    while true; do
-        sudo -n true
-        sleep 60
-        kill -0 "$$" || exit
-    done 2>/dev/null &
-
+    (
+        while true; do
+            sudo -n true >/dev/null 2>&1 || exit 0
+            sleep 60
+        done
+    ) &
 }
 
 ################################################################################

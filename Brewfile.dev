@@ -3,43 +3,27 @@
 ###############################################################################
 
 brew "cmake"
-
 brew "make"
-
 brew "llvm"
-
 brew "pkg-config"
-
 brew "git-lfs"
-
 brew "git-delta"
-
 brew "shellcheck"
-
 brew "shfmt"
-
 brew "pre-commit"
-
 brew "act"
-
-brew "docker-compose"
-
 brew "k9s"
-
 brew "helm"
-
 cask "warp"
+cask "coteditor"
 
 ###############################################################################
 # Editors
 ###############################################################################
 
 cask "visual-studio-code"
-
 cask "cursor"
-
 cask "ghostty"
-
 cask "iterm2"
 
 ###############################################################################
