@@ -3,12 +3,13 @@
 ###############################################################################
 
 apps = [
+  "/Applications/Google Chrome.app",
+  "/Applications/Safari.app",
+  "/Applications/Arc.app",
   "/Applications/Ghostty.app",
   "/Applications/Cursor.app",
   "/Applications/Visual Studio Code.app",
-  "/Applications/Safari.app",
-  "/Applications/Google Chrome.app",
-  "/Applications/Arc.app",
+  "/Applications/CotEditor.app",
   "/Applications/ChatGPT.app",
   "/Applications/Claude.app",
   "/Applications/DBeaver.app",
@@ -18,9 +19,11 @@ apps = [
   "/Applications/Microsoft OneNote.app",
   "/Applications/Notion.app",
   "/Applications/Notion Calendar.app",
-  "/Applications/1Password.app",
   "/Applications/Obsidian.app",
+  "/Applications/1Password.app",
+  "/Applications/Granola.app",
   "/Applications/Trello.app",
   "/Applications/Raycast.app",
+  "/Applications/Granola.app",
   "/Applications/Self Service.app"
 ]

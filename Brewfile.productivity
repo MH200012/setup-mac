@@ -14,6 +14,7 @@ cask "stats"
 cask "trello"
 cask "keka"
 cask "coteditor"
+cask "granola"
 
 ###############################################################################
 # Notes
@@ -26,6 +27,4 @@ cask "notion"
 # Communication
 ###############################################################################
 
-cask "slack"
-cask "discord"
 cask "zoom"

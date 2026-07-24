@@ -50,8 +50,6 @@ cask "font-hack-nerd-font"
 
 cask "google-chrome"
 
-cask "firefox"
-
 cask "arc"
 
 ###############################################################################

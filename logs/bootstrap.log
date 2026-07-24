@@ -2274,3 +2274,237 @@
 2026-07-15 16:50:41 [INFO] Updating dotfiles...
 2026-07-15 16:50:42 [SUCCESS] Dotfiles updated.
 2026-07-15 16:50:42 [SUCCESS] Update completed.
+2026-07-15 17:04:43 [STEP] Updating Homebrew
+2026-07-15 17:04:43 [INFO] Updating Homebrew...
+2026-07-15 17:04:45 [SUCCESS] Homebrew updated.
+2026-07-15 17:04:45 [STEP] Updating Homebrew Packages
+2026-07-15 17:05:15 [STEP] Updating mise
+2026-07-15 17:05:15 [STEP] Updating uv Tools
+2026-07-15 17:05:18 [STEP] Updating Dotfiles
+2026-07-15 17:05:18 [INFO] Updating dotfiles...
+2026-07-15 17:05:19 [SUCCESS] Dotfiles updated.
+2026-07-15 17:05:19 [SUCCESS] Update completed.
+2026-07-15 17:09:01 [STEP] Updating Homebrew
+2026-07-15 17:09:01 [INFO] Updating Homebrew...
+2026-07-15 17:09:03 [SUCCESS] Homebrew updated.
+2026-07-15 17:09:03 [STEP] Updating Homebrew Packages
+2026-07-15 17:09:20 [STEP] Updating mise
+2026-07-15 17:09:20 [STEP] Updating uv Tools
+2026-07-15 17:09:22 [STEP] Updating Dotfiles
+2026-07-15 17:09:22 [INFO] Updating dotfiles...
+2026-07-15 17:12:06 [STEP] Updating Homebrew
+2026-07-15 17:12:06 [INFO] Updating Homebrew...
+2026-07-15 17:12:10 [SUCCESS] Homebrew updated.
+2026-07-15 17:12:10 [STEP] Updating Homebrew Packages
+2026-07-15 17:12:26 [STEP] Updating mise
+2026-07-15 17:12:26 [STEP] Updating uv Tools
+2026-07-15 17:12:28 [STEP] Updating Dotfiles
+2026-07-15 17:12:28 [INFO] Updating dotfiles...
+2026-07-15 20:09:29 [STEP] Updating Homebrew
+2026-07-15 20:09:29 [INFO] Updating Homebrew...
+2026-07-15 20:09:33 [SUCCESS] Homebrew updated.
+2026-07-15 20:09:33 [STEP] Updating Homebrew Packages
+2026-07-15 21:28:03 [STEP] Updating Homebrew
+2026-07-15 21:28:03 [INFO] Updating Homebrew...
+2026-07-15 21:28:15 [SUCCESS] Homebrew updated.
+2026-07-15 21:28:15 [STEP] Updating Homebrew Packages
+2026-07-15 21:56:31 [STEP] Updating Homebrew
+2026-07-15 21:56:31 [INFO] Updating Homebrew...
+2026-07-15 21:56:44 [SUCCESS] Homebrew updated.
+2026-07-15 21:56:44 [STEP] Updating Homebrew Packages
+2026-07-15 21:58:02 [STEP] Updating mise
+2026-07-15 21:58:03 [STEP] Updating uv Tools
+2026-07-15 21:58:07 [STEP] Updating Dotfiles
+2026-07-15 21:58:07 [INFO] Updating dotfiles...
+2026-07-15 21:58:08 [SUCCESS] Dotfiles updated.
+2026-07-15 21:58:08 [SUCCESS] Update completed.
+2026-07-16 20:30:51 [STEP] Updating Homebrew
+2026-07-16 20:30:51 [INFO] Updating Homebrew...
+2026-07-16 20:31:13 [SUCCESS] Homebrew updated.
+2026-07-16 20:31:13 [STEP] Updating Homebrew Packages
+2026-07-16 20:43:42 [STEP] Updating mise
+2026-07-16 20:43:53 [STEP] Updating uv Tools
+2026-07-16 20:44:02 [STEP] Updating Dotfiles
+2026-07-16 20:44:02 [INFO] Updating dotfiles...
+2026-07-16 20:44:12 [SUCCESS] Dotfiles updated.
+2026-07-16 20:44:12 [SUCCESS] Update completed.
+2026-07-23 15:50:02 [STEP] Updating Homebrew
+2026-07-23 15:50:02 [INFO] Updating Homebrew...
+2026-07-23 15:50:51 [SUCCESS] Homebrew updated.
+2026-07-23 15:50:51 [STEP] Updating Homebrew Packages
+2026-07-23 16:20:42 [STEP] Updating mise
+2026-07-23 16:20:46 [STEP] Updating uv Tools
+2026-07-23 16:20:56 [STEP] Updating Dotfiles
+2026-07-23 16:20:56 [INFO] Updating dotfiles...
+2026-07-23 16:20:58 [SUCCESS] Dotfiles updated.
+2026-07-23 16:20:58 [SUCCESS] Update completed.
+2026-07-24 17:34:18 [STEP] Configuring Dock
+2026-07-24 17:34:18 [INFO] Adding Google Chrome.app
+2026-07-24 17:34:18 [INFO] Adding Safari.app
+2026-07-24 17:34:18 [INFO] Adding Arc.app
+2026-07-24 17:34:18 [INFO] Adding Ghostty.app
+2026-07-24 17:34:18 [INFO] Adding Cursor.app
+2026-07-24 17:34:18 [INFO] Adding Visual Studio Code.app
+2026-07-24 17:34:18 [INFO] Adding ChatGPT.app
+2026-07-24 17:34:18 [INFO] Adding Claude.app
+2026-07-24 17:34:18 [INFO] Adding DBeaver.app
+2026-07-24 17:34:18 [INFO] Adding Microsoft Teams.app
+2026-07-24 17:34:18 [INFO] Adding Microsoft Outlook.app
+2026-07-24 17:34:18 [INFO] Adding Microsoft PowerPoint.app
+2026-07-24 17:34:18 [INFO] Adding Microsoft OneNote.app
+2026-07-24 17:34:18 [INFO] Adding Notion.app
+2026-07-24 17:34:18 [INFO] Adding Notion Calendar.app
+2026-07-24 17:34:18 [INFO] Adding 1Password.app
+2026-07-24 17:34:19 [INFO] Adding Obsidian.app
+2026-07-24 17:34:19 [INFO] Adding Trello.app
+2026-07-24 17:34:19 [INFO] Adding Raycast.app
+2026-07-24 17:34:19 [INFO] Adding Granola.app
+2026-07-24 17:34:19 [INFO] Adding Self Service.app
+2026-07-24 17:34:19 [SUCCESS] Dock configured.
+2026-07-24 17:37:21 [STEP] Configuring Dock
+2026-07-24 17:37:21 [INFO] Adding Google Chrome.app
+2026-07-24 17:37:21 [INFO] Adding Safari.app
+2026-07-24 17:37:21 [INFO] Adding Arc.app
+2026-07-24 17:37:21 [INFO] Adding Ghostty.app
+2026-07-24 17:37:21 [INFO] Adding Cursor.app
+2026-07-24 17:37:21 [INFO] Adding Visual Studio Code.app
+2026-07-24 17:37:21 [INFO] Adding ChatGPT.app
+2026-07-24 17:37:21 [INFO] Adding Claude.app
+2026-07-24 17:37:21 [INFO] Adding DBeaver.app
+2026-07-24 17:37:22 [INFO] Adding Microsoft Teams.app
+2026-07-24 17:37:22 [INFO] Adding Microsoft Outlook.app
+2026-07-24 17:37:22 [INFO] Adding Microsoft PowerPoint.app
+2026-07-24 17:37:22 [INFO] Adding Microsoft OneNote.app
+2026-07-24 17:37:22 [INFO] Adding Notion.app
+2026-07-24 17:37:22 [INFO] Adding Notion Calendar.app
+2026-07-24 17:37:22 [INFO] Adding Obsidian.app
+2026-07-24 17:37:22 [INFO] Adding 1Password.app
+2026-07-24 17:37:22 [INFO] Adding Granola.app
+2026-07-24 17:37:22 [INFO] Adding Trello.app
+2026-07-24 17:37:22 [INFO] Adding Raycast.app
+2026-07-24 17:37:22 [INFO] Adding Granola.app
+2026-07-24 17:41:00 [STEP] Configuring Dock
+2026-07-24 17:41:00 [INFO] Adding Google Chrome.app
+2026-07-24 17:41:00 [INFO] Adding Safari.app
+2026-07-24 17:41:00 [INFO] Adding Arc.app
+2026-07-24 17:41:00 [INFO] Adding Ghostty.app
+2026-07-24 17:41:00 [INFO] Adding Cursor.app
+2026-07-24 17:41:00 [INFO] Adding Visual Studio Code.app
+2026-07-24 17:41:00 [INFO] Adding ChatGPT.app
+2026-07-24 17:41:00 [INFO] Adding Claude.app
+2026-07-24 17:41:00 [INFO] Adding DBeaver.app
+2026-07-24 17:41:00 [INFO] Adding Microsoft Teams.app
+2026-07-24 17:41:00 [INFO] Adding Microsoft Outlook.app
+2026-07-24 17:41:00 [INFO] Adding Microsoft PowerPoint.app
+2026-07-24 17:41:00 [INFO] Adding Microsoft OneNote.app
+2026-07-24 17:41:00 [INFO] Adding Notion.app
+2026-07-24 17:41:00 [INFO] Adding Notion Calendar.app
+2026-07-24 17:41:00 [INFO] Adding Obsidian.app
+2026-07-24 17:41:00 [INFO] Adding CotEditor.app
+2026-07-24 17:41:00 [INFO] Adding 1Password.app
+2026-07-24 17:41:00 [INFO] Adding Granola.app
+2026-07-24 17:41:00 [INFO] Adding Trello.app
+2026-07-24 17:41:00 [INFO] Adding Raycast.app
+2026-07-24 17:41:00 [INFO] Adding Granola.app
+2026-07-24 17:41:20 [STEP] Configuring Dock
+2026-07-24 17:41:20 [INFO] Adding Google Chrome.app
+2026-07-24 17:41:20 [INFO] Adding Safari.app
+2026-07-24 17:41:20 [INFO] Adding Arc.app
+2026-07-24 17:41:20 [INFO] Adding Ghostty.app
+2026-07-24 17:41:20 [INFO] Adding Cursor.app
+2026-07-24 17:41:20 [INFO] Adding Visual Studio Code.app
+2026-07-24 17:41:20 [INFO] Adding ChatGPT.app
+2026-07-24 17:41:20 [INFO] Adding Claude.app
+2026-07-24 17:41:20 [INFO] Adding DBeaver.app
+2026-07-24 17:41:20 [INFO] Adding Microsoft Teams.app
+2026-07-24 17:41:20 [INFO] Adding Microsoft Outlook.app
+2026-07-24 17:41:20 [INFO] Adding Microsoft PowerPoint.app
+2026-07-24 17:41:20 [INFO] Adding Microsoft OneNote.app
+2026-07-24 17:41:20 [INFO] Adding Notion.app
+2026-07-24 17:41:20 [INFO] Adding Notion Calendar.app
+2026-07-24 17:41:20 [INFO] Adding Obsidian.app
+2026-07-24 17:41:20 [INFO] Adding CotEditor.app
+2026-07-24 17:41:20 [INFO] Adding 1Password.app
+2026-07-24 17:41:20 [INFO] Adding Granola.app
+2026-07-24 17:41:20 [INFO] Adding Trello.app
+2026-07-24 17:41:20 [INFO] Adding Raycast.app
+2026-07-24 17:41:21 [INFO] Adding Granola.app
+2026-07-24 17:42:29 [STEP] Configuring Dock
+2026-07-24 17:42:29 [INFO] Adding Google Chrome.app
+2026-07-24 17:42:29 [INFO] Adding Safari.app
+2026-07-24 17:42:29 [INFO] Adding Arc.app
+2026-07-24 17:42:29 [INFO] Adding Ghostty.app
+2026-07-24 17:42:29 [INFO] Adding Cursor.app
+2026-07-24 17:42:29 [INFO] Adding Visual Studio Code.app
+2026-07-24 17:42:29 [INFO] Adding CotEditor.app
+2026-07-24 17:42:29 [INFO] Adding ChatGPT.app
+2026-07-24 17:42:29 [INFO] Adding Claude.app
+2026-07-24 17:42:29 [INFO] Adding DBeaver.app
+2026-07-24 17:42:29 [INFO] Adding Microsoft Teams.app
+2026-07-24 17:42:29 [INFO] Adding Microsoft Outlook.app
+2026-07-24 17:42:29 [INFO] Adding Microsoft PowerPoint.app
+2026-07-24 17:42:29 [INFO] Adding Microsoft OneNote.app
+2026-07-24 17:42:29 [INFO] Adding Notion.app
+2026-07-24 17:42:29 [INFO] Adding Notion Calendar.app
+2026-07-24 17:42:29 [INFO] Adding Obsidian.app
+2026-07-24 17:42:29 [INFO] Adding 1Password.app
+2026-07-24 17:42:30 [INFO] Adding Granola.app
+2026-07-24 17:42:30 [INFO] Adding Trello.app
+2026-07-24 17:42:30 [INFO] Adding Raycast.app
+2026-07-24 17:42:30 [INFO] Adding Granola.app
+2026-07-24 17:42:39 [STEP] Configuring Dock
+2026-07-24 17:42:39 [INFO] Adding Google Chrome.app
+2026-07-24 17:42:39 [INFO] Adding Safari.app
+2026-07-24 17:42:39 [INFO] Adding Arc.app
+2026-07-24 17:42:39 [INFO] Adding Ghostty.app
+2026-07-24 17:42:39 [INFO] Adding Cursor.app
+2026-07-24 17:42:39 [INFO] Adding Visual Studio Code.app
+2026-07-24 17:42:39 [INFO] Adding CotEditor.app
+2026-07-24 17:42:39 [INFO] Adding ChatGPT.app
+2026-07-24 17:42:39 [INFO] Adding Claude.app
+2026-07-24 17:42:39 [INFO] Adding DBeaver.app
+2026-07-24 17:42:39 [INFO] Adding Microsoft Teams.app
+2026-07-24 17:42:39 [INFO] Adding Microsoft Outlook.app
+2026-07-24 17:42:39 [INFO] Adding Microsoft PowerPoint.app
+2026-07-24 17:42:39 [INFO] Adding Microsoft OneNote.app
+2026-07-24 17:42:40 [INFO] Adding Notion.app
+2026-07-24 17:42:40 [INFO] Adding Notion Calendar.app
+2026-07-24 17:42:40 [INFO] Adding Obsidian.app
+2026-07-24 17:42:40 [INFO] Adding 1Password.app
+2026-07-24 17:42:40 [INFO] Adding Granola.app
+2026-07-24 17:42:40 [INFO] Adding Trello.app
+2026-07-24 17:42:40 [INFO] Adding Raycast.app
+2026-07-24 17:42:40 [INFO] Adding Granola.app
+2026-07-24 17:43:54 [STEP] Configuring Dock
+2026-07-24 17:43:54 [INFO] Adding Google Chrome.app
+2026-07-24 17:43:54 [INFO] Adding Safari.app
+2026-07-24 17:43:54 [INFO] Adding Arc.app
+2026-07-24 17:43:54 [INFO] Adding Ghostty.app
+2026-07-24 17:43:54 [INFO] Adding Cursor.app
+2026-07-24 17:43:54 [INFO] Adding Visual Studio Code.app
+2026-07-24 17:43:54 [INFO] Adding CotEditor.app
+2026-07-24 17:43:54 [INFO] Adding ChatGPT.app
+2026-07-24 17:43:54 [INFO] Adding Claude.app
+2026-07-24 17:43:54 [INFO] Adding DBeaver.app
+2026-07-24 17:43:54 [INFO] Adding Microsoft Teams.app
+2026-07-24 17:43:54 [INFO] Adding Microsoft Outlook.app
+2026-07-24 17:43:54 [INFO] Adding Microsoft PowerPoint.app
+2026-07-24 17:43:54 [INFO] Adding Microsoft OneNote.app
+2026-07-24 17:43:54 [INFO] Adding Notion.app
+2026-07-24 17:43:54 [INFO] Adding Notion Calendar.app
+2026-07-24 17:43:54 [INFO] Adding Obsidian.app
+2026-07-24 17:43:54 [INFO] Adding 1Password.app
+2026-07-24 17:43:54 [INFO] Adding Granola.app
+2026-07-24 17:43:54 [INFO] Adding Trello.app
+2026-07-24 17:43:54 [INFO] Adding Raycast.app
+2026-07-24 17:43:54 [INFO] Adding Granola.app
+2026-07-24 17:43:55 [INFO] Adding Self Service.app
+2026-07-24 17:43:55 [SUCCESS] Dock configured.
+2026-07-24 18:27:10 [STEP] Updating Homebrew
+2026-07-24 18:27:10 [INFO] Updating Homebrew...
+2026-07-24 18:27:34 [SUCCESS] Homebrew updated.
+2026-07-24 18:27:34 [STEP] Updating Homebrew Packages
+2026-07-24 18:32:36 [STEP] Updating Homebrew
+2026-07-24 18:32:37 [INFO] Updating Homebrew...
+2026-07-24 18:32:40 [SUCCESS] Homebrew updated.
+2026-07-24 18:32:40 [STEP] Updating Homebrew Packages

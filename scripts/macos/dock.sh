@@ -35,7 +35,7 @@ add_dock_app() {
 
         log_info "Adding $(basename "${app}")"
 
-        dockutil --add "${app}" --no-restart
+        dockutil --add "${app}" --replacing "$(basename "${app}" .app)" --no-restart
 
     else
 
