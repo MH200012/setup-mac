@@ -20,6 +20,7 @@ brew "hf"
 # AI
 ###############################################################################
 
+cask "ollama"
 cask "chatgpt"
 cask "chatgpt-atlas"
 cask "claude"

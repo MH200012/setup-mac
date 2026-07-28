@@ -44,6 +44,18 @@ fi
 success "Xcode Command Line Tools installed."
 
 ################################################################################
+# CotEditor preferences
+################################################################################
+
+echo "Applying CotEditor preferences..."
+
+killall CotEditor >/dev/null 2>&1 || true
+killall cfprefsd >/dev/null 2>&1 || true
+
+defaults import com.coteditor.CotEditor \
+    "$HOME/Library/Preferences/com.coteditor.CotEditor.plist"
+
+################################################################################
 # Homebrew
 ################################################################################
 
