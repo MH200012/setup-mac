@@ -5,7 +5,7 @@
 cask "vlc"
 cask "spotify"
 cask "postman"
-cask "wireshark"
+cask "wireshark-app"
 cask "visualvm"
 cask "orbstack"
 cask "ghostty"

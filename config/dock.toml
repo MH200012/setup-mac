@@ -13,17 +13,11 @@ apps = [
   "/Applications/ChatGPT.app",
   "/Applications/Claude.app",
   "/Applications/DBeaver.app",
-  "/Applications/Microsoft Teams.app",
-  "/Applications/Microsoft Outlook.app",
-  "/Applications/Microsoft PowerPoint.app",
-  "/Applications/Microsoft OneNote.app",
   "/Applications/Notion.app",
   "/Applications/Notion Calendar.app",
   "/Applications/Obsidian.app",
   "/Applications/1Password.app",
   "/Applications/Granola.app",
   "/Applications/Trello.app",
-  "/Applications/Raycast.app",
-  "/Applications/Granola.app",
-  "/Applications/Self Service.app"
+  "/Applications/Raycast.app"
 ]

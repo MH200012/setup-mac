@@ -23,11 +23,19 @@ source "${BOOTSTRAP_ROOT}/scripts/install/homebrew.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/mise.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/dotfiles.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/trello.sh"
+source "${BOOTSTRAP_ROOT}/scripts/macos/dock.sh"
 
 log_banner
 
 log_step "Updating Homebrew"
 update_homebrew
+
+log_step "Installing Homebrew Packages"
+install_brew_packages
+
+log_step "Installing Trello"
+setup_trello
 
 log_step "Updating Homebrew Packages"
 brew upgrade
@@ -41,5 +49,8 @@ uv tool upgrade --all
 
 log_step "Updating Dotfiles"
 update_dotfiles
+
+log_step "Configuring Dock"
+setup_dock
 
 log_success "Update completed."

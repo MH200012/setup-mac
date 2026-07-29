@@ -41,6 +41,7 @@ source "${BOOTSTRAP_ROOT}/scripts/install/cursor.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/github_cli.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/macwhisper.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/raycast.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/trello.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/dotfiles.sh"
 
 ################################################################################
@@ -176,7 +177,7 @@ bootstrap() {
 
     setup_chezmoi
     
-    log_step "Installing dotfiles
+    log_step "Installing dotfiles"
     
     setup_dotfiles
         
@@ -225,6 +226,8 @@ bootstrap() {
     ###########################################################################
     # Desktop
     ###########################################################################
+
+    log_step "Configuring Dock"
 
     setup_dock
 
