@@ -4,9 +4,7 @@
 # Trello
 # ==============================================================================
 #
-# Install Trello Desktop.
-#
-# Homebrew Cask has been removed, so install from the official DMG.
+# Install Trello Desktop from the Mac App Store.
 #
 # ==============================================================================
 
@@ -17,11 +15,7 @@ set -Eeuo pipefail
 ################################################################################
 
 readonly TRELLO_APP="/Applications/Trello.app"
-readonly TRELLO_DMG="/tmp/Trello.dmg"
-readonly TRELLO_MOUNT="/Volumes/Trello"
-
-# 最新版DMG
-readonly TRELLO_URL="https://desktop.trello.com/mac/download"
+readonly TRELLO_APP_STORE_ID="1278508951"
 
 ################################################################################
 # Check
@@ -44,31 +38,11 @@ install_trello() {
         return
     fi
 
-    log_info "Downloading Trello..."
+    require_command mas
 
-    curl -fsSL \
-        -o "${TRELLO_DMG}" \
-        "${TRELLO_URL}"
+    log_info "Installing Trello from the Mac App Store..."
 
-    log_info "Mounting DMG..."
-
-    hdiutil attach "${TRELLO_DMG}" \
-        -nobrowse \
-        -quiet
-
-    log_info "Installing Trello..."
-
-    cp -R \
-        "${TRELLO_MOUNT}/Trello.app" \
-        /Applications/
-
-    log_info "Unmounting DMG..."
-
-    hdiutil detach \
-        "${TRELLO_MOUNT}" \
-        -quiet
-
-    rm -f "${TRELLO_DMG}"
+    mas install "${TRELLO_APP_STORE_ID}"
 
     log_success "Trello installed."
 

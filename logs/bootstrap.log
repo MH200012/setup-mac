@@ -2532,3 +2532,215 @@
 2026-07-29 17:49:40 [SUCCESS] Brewfile.productivity completed.
 2026-07-29 17:49:40 [STEP] Installing Trello
 2026-07-29 17:49:40 [INFO] Downloading Trello...
+2026-07-29 19:04:30 [STEP] Checking macOS
+2026-07-29 19:04:30 [STEP] Checking CPU Architecture
+2026-07-29 19:04:30 [INFO] Apple Silicon detected.
+2026-07-29 19:04:30 [STEP] Checking Internet
+2026-07-29 19:04:31 [SUCCESS] Internet connection OK.
+2026-07-29 19:04:31 [STEP] Requesting sudo
+2026-07-29 19:04:36 [STEP] Installing Xcode Command Line Tools
+2026-07-29 19:04:36 [INFO] Xcode Command Line Tools already installed.
+2026-07-29 19:04:36 [STEP] Installing Git
+2026-07-29 19:04:36 [INFO] Git already installed.
+2026-07-29 19:04:36 [STEP] GitHub CLI
+2026-07-29 19:04:36 [INFO] GitHub CLI already installed.
+2026-07-29 19:04:36 [STEP] GitHub Authentication
+2026-07-29 19:04:36 [INFO] GitHub already authenticated.
+2026-07-29 19:04:36 [STEP] Installing Homebrew
+2026-07-29 19:04:36 [INFO] Homebrew already installed.
+2026-07-29 19:04:36 [INFO] Updating Homebrew...
+2026-07-29 19:04:39 [SUCCESS] Homebrew updated.
+2026-07-29 19:04:39 [INFO] Installing Brewfile
+2026-07-29 19:04:39 [SUCCESS] Brewfile completed.
+2026-07-29 19:04:39 [INFO] Installing Brewfile.dev
+2026-07-29 19:04:40 [SUCCESS] Brewfile.dev completed.
+2026-07-29 19:04:40 [INFO] Installing Brewfile.ai
+2026-07-29 19:04:41 [SUCCESS] Brewfile.ai completed.
+2026-07-29 19:04:41 [INFO] Installing Brewfile.database
+2026-07-29 19:04:42 [SUCCESS] Brewfile.database completed.
+2026-07-29 19:04:42 [INFO] Installing Brewfile.cloud
+2026-07-29 19:04:42 [SUCCESS] Brewfile.cloud completed.
+2026-07-29 19:04:42 [INFO] Installing Brewfile.optional
+2026-07-29 19:04:43 [SUCCESS] Brewfile.optional completed.
+2026-07-29 19:04:43 [INFO] Installing Brewfile.productivity
+2026-07-29 19:04:43 [SUCCESS] Brewfile.productivity completed.
+2026-07-29 19:04:43 [INFO] Running brew doctor...
+2026-07-29 19:04:46 [INFO] Cleaning Homebrew...
+2026-07-29 19:04:48 [INFO] brew cleanup exit code = 0
+2026-07-29 19:04:48 [SUCCESS] Homebrew cleaned.
+2026-07-29 19:04:48 [STEP] Installing Trello
+2026-07-29 19:04:48 [INFO] Downloading Trello...
+2026-07-29 19:04:49 [ERROR] Bootstrap failed.
+2026-07-29 19:04:49 [ERROR] Line      : 40
+2026-07-29 19:04:49 [ERROR] Command   : curl -fsSL -o "${TRELLO_DMG}" "${TRELLO_URL}"
+2026-07-29 19:04:49 [ERROR] Exit code : 6
+2026-07-29 19:06:59 [STEP] Checking macOS
+2026-07-29 19:06:59 [STEP] Checking CPU Architecture
+2026-07-29 19:06:59 [INFO] Apple Silicon detected.
+2026-07-29 19:06:59 [STEP] Checking Internet
+2026-07-29 19:07:01 [SUCCESS] Internet connection OK.
+2026-07-29 19:07:01 [STEP] Requesting sudo
+2026-07-29 19:07:05 [STEP] Installing Xcode Command Line Tools
+2026-07-29 19:07:05 [INFO] Xcode Command Line Tools already installed.
+2026-07-29 19:07:05 [STEP] Installing Git
+2026-07-29 19:07:05 [INFO] Git already installed.
+2026-07-29 19:07:05 [STEP] GitHub CLI
+2026-07-29 19:07:05 [INFO] GitHub CLI already installed.
+2026-07-29 19:07:05 [STEP] GitHub Authentication
+2026-07-29 19:07:06 [INFO] GitHub already authenticated.
+2026-07-29 19:07:06 [STEP] Installing Homebrew
+2026-07-29 19:07:06 [INFO] Homebrew already installed.
+2026-07-29 19:07:06 [INFO] Updating Homebrew...
+2026-07-29 19:07:07 [SUCCESS] Homebrew updated.
+2026-07-29 19:07:07 [INFO] Installing Brewfile
+2026-07-29 19:07:08 [SUCCESS] Brewfile completed.
+2026-07-29 19:07:08 [INFO] Installing Brewfile.dev
+2026-07-29 19:07:09 [SUCCESS] Brewfile.dev completed.
+2026-07-29 19:07:09 [INFO] Installing Brewfile.ai
+2026-07-29 19:07:09 [SUCCESS] Brewfile.ai completed.
+2026-07-29 19:07:09 [INFO] Installing Brewfile.database
+2026-07-29 19:07:10 [SUCCESS] Brewfile.database completed.
+2026-07-29 19:07:10 [INFO] Installing Brewfile.cloud
+2026-07-29 19:07:11 [SUCCESS] Brewfile.cloud completed.
+2026-07-29 19:07:11 [INFO] Installing Brewfile.optional
+2026-07-29 19:07:11 [SUCCESS] Brewfile.optional completed.
+2026-07-29 19:07:11 [INFO] Installing Brewfile.productivity
+2026-07-29 19:07:12 [SUCCESS] Brewfile.productivity completed.
+2026-07-29 19:07:12 [INFO] Running brew doctor...
+2026-07-29 19:07:14 [INFO] Cleaning Homebrew...
+2026-07-29 19:07:16 [INFO] brew cleanup exit code = 0
+2026-07-29 19:07:16 [SUCCESS] Homebrew cleaned.
+2026-07-29 19:07:16 [STEP] Installing Trello
+2026-07-29 19:07:16 [INFO] Installing Trello from the Mac App Store...
+2026-07-29 19:07:40 [SUCCESS] Trello installed.
+2026-07-29 19:07:40 [SUCCESS] Trello verified.
+2026-07-29 19:07:40 [STEP] Installing Macwhisper
+2026-07-29 19:07:40 [INFO] MacWhisper already installed.
+2026-07-29 19:07:40 [INFO] Please configure MacWhisper manually.
+2026-07-29 19:07:40 [INFO] Settings → Dictation
+2026-07-29 19:07:40 [INFO] Settings → Live Captions
+2026-07-29 19:07:40 [INFO] Settings → Meeting Detection
+2026-07-29 19:07:40 [INFO] Settings → Global Shortcut
+2026-07-29 19:07:40 [STEP] Installing Raycast
+2026-07-29 19:07:41 [INFO] Raycast already installed.
+2026-07-29 19:07:41 [STEP] Configuring Raycast
+2026-07-29 19:07:41 [SUCCESS] Raycast configuration completed
+2026-07-29 19:07:41 [STEP] Installing chezmoi
+2026-07-29 19:07:41 [INFO] chezmoi already installed.
+2026-07-29 19:07:41 [INFO] Applying dotfiles...
+2026-07-29 19:07:41 [SUCCESS] Dotfiles applied.
+2026-07-29 19:07:41 [INFO] chezmoi version v2.71.1, commit 94f58519ad17b954a5e7621a3c4e24385fd5417a, built at 2026-07-20T20:06:37Z, built by Homebrew
+2026-07-29 19:07:41 [STEP] Installing dotfiles
+2026-07-29 19:07:41 [INFO] dotfiles already exist.
+2026-07-29 19:07:41 [INFO] Initializing chezmoi...
+2026-07-29 19:07:42 [INFO] Applying dotfiles...
+2026-07-29 19:07:43 [STEP] Installing mise
+2026-07-29 19:07:43 [INFO] mise already installed.
+2026-07-29 19:07:43 [INFO] Configuring mise...
+2026-07-29 19:07:43 [SUCCESS] mise shell configuration added.
+2026-07-29 19:07:43 [INFO] Installing runtimes from .mise.toml...
+2026-07-29 19:07:43 [SUCCESS] All runtimes installed.
+2026-07-29 19:07:43 [INFO] 2026.7.16 macos-arm64 (2026-07-29)
+2026-07-29 19:07:43 [INFO] mise shell configuration already exists.
+2026-07-29 19:07:43 [STEP] Installing uv
+2026-07-29 19:07:43 [INFO] uv already installed.
+2026-07-29 19:07:43 [INFO] Installing Python CLI tools...
+2026-07-29 19:07:43 [INFO] Installing ruff
+2026-07-29 19:07:43 [INFO] Installing basedpyright
+2026-07-29 19:07:43 [INFO] Installing black
+2026-07-29 19:07:43 [INFO] Installing ipython
+2026-07-29 19:07:43 [INFO] Installing jupyterlab
+2026-07-29 19:07:43 [SUCCESS] Python CLI tools installed.
+2026-07-29 19:07:43 [INFO] uv 0.12.0 (Homebrew 2026-07-28 aarch64-apple-darwin)
+2026-07-29 19:07:43 [STEP] Creating Directory Structure
+2026-07-29 19:07:43 [STEP] Creating workspace folders
+2026-07-29 19:07:43 [SUCCESS] Workspace folders created.
+2026-07-29 19:07:43 [STEP] Applying macOS Settings
+2026-07-29 19:07:43 [STEP] Applying macOS defaults
+2026-07-29 19:07:43 [INFO] Configuring Safari
+2026-07-29 19:07:44 [WARN] Safari settings skipped (unsupported on this macOS version).
+2026-07-29 19:07:44 [SUCCESS] macOS defaults applied.
+2026-07-29 19:07:44 [STEP] Installing VS Code Extensions
+2026-07-29 19:07:44 [STEP] Configuring Visual Studio Code
+2026-07-29 19:07:45 [STEP] Installing Cursor
+2026-07-29 19:07:45 [SUCCESS] Cursor is already installed.
+2026-07-29 19:07:45 [STEP] Configuring Dock
+2026-07-29 19:07:45 [STEP] Configuring Dock
+2026-07-29 19:07:45 [INFO] Adding Google Chrome.app
+2026-07-29 19:07:45 [INFO] Adding Safari.app
+2026-07-29 19:07:45 [WARN] Arc.app not installed. Skipping.
+2026-07-29 19:07:45 [INFO] Adding Ghostty.app
+2026-07-29 19:07:45 [INFO] Adding Cursor.app
+2026-07-29 19:07:45 [INFO] Adding Visual Studio Code.app
+2026-07-29 19:07:45 [INFO] Adding CotEditor.app
+2026-07-29 19:07:45 [INFO] Adding ChatGPT.app
+2026-07-29 19:07:45 [INFO] Adding Claude.app
+2026-07-29 19:07:45 [INFO] Adding DBeaver.app
+2026-07-29 19:07:45 [INFO] Adding Notion.app
+2026-07-29 19:07:45 [INFO] Adding Notion Calendar.app
+2026-07-29 19:07:45 [INFO] Adding Obsidian.app
+2026-07-29 19:07:45 [INFO] Adding 1Password.app
+2026-07-29 19:07:45 [INFO] Adding Granola.app
+2026-07-29 19:07:45 [INFO] Adding Trello.app
+2026-07-29 19:07:45 [INFO] Adding Raycast.app
+2026-07-29 19:07:45 [SUCCESS] Dock configured.
+2026-07-29 19:07:45 [STEP] Running Diagnostics
+2026-07-29 19:07:45 [STEP] Running environment checks
+2026-07-29 19:07:45 [SUCCESS] git: OK
+2026-07-29 19:07:45 [SUCCESS] gh: OK
+2026-07-29 19:07:45 [SUCCESS] brew: OK
+2026-07-29 19:07:45 [SUCCESS] mise: OK
+2026-07-29 19:07:45 [SUCCESS] uv: OK
+2026-07-29 19:07:45 [SUCCESS] python3: OK
+2026-07-29 19:07:45 [SUCCESS] VS Code CLI: OK
+2026-07-29 19:07:45 [SUCCESS] Cursor: OK
+2026-07-29 19:07:45 [SUCCESS] Environment check complete.
+2026-07-29 19:07:45 [SUCCESS] Bootstrap completed successfully.
+2026-07-29 19:07:53 [STEP] Updating Homebrew
+2026-07-29 19:07:53 [INFO] Updating Homebrew...
+2026-07-29 19:07:54 [SUCCESS] Homebrew updated.
+2026-07-29 19:07:54 [STEP] Installing Homebrew Packages
+2026-07-29 19:07:54 [INFO] Installing Brewfile
+2026-07-29 19:07:55 [SUCCESS] Brewfile completed.
+2026-07-29 19:07:55 [INFO] Installing Brewfile.dev
+2026-07-29 19:07:56 [SUCCESS] Brewfile.dev completed.
+2026-07-29 19:07:56 [INFO] Installing Brewfile.ai
+2026-07-29 19:07:56 [SUCCESS] Brewfile.ai completed.
+2026-07-29 19:07:56 [INFO] Installing Brewfile.database
+2026-07-29 19:07:57 [SUCCESS] Brewfile.database completed.
+2026-07-29 19:07:57 [INFO] Installing Brewfile.cloud
+2026-07-29 19:07:58 [SUCCESS] Brewfile.cloud completed.
+2026-07-29 19:07:58 [INFO] Installing Brewfile.optional
+2026-07-29 19:07:58 [SUCCESS] Brewfile.optional completed.
+2026-07-29 19:07:58 [INFO] Installing Brewfile.productivity
+2026-07-29 19:07:59 [SUCCESS] Brewfile.productivity completed.
+2026-07-29 19:07:59 [STEP] Installing Trello
+2026-07-29 19:07:59 [INFO] Trello already installed.
+2026-07-29 19:07:59 [SUCCESS] Trello verified.
+2026-07-29 19:07:59 [STEP] Updating Homebrew Packages
+2026-07-29 19:08:03 [STEP] Updating mise
+2026-07-29 19:08:10 [STEP] Updating uv Tools
+2026-07-29 19:08:12 [STEP] Updating Dotfiles
+2026-07-29 19:08:12 [INFO] Updating dotfiles...
+2026-07-29 19:08:16 [SUCCESS] Dotfiles updated.
+2026-07-29 19:08:16 [STEP] Configuring Dock
+2026-07-29 19:08:16 [STEP] Configuring Dock
+2026-07-29 19:08:16 [INFO] Adding Google Chrome.app
+2026-07-29 19:08:16 [INFO] Adding Safari.app
+2026-07-29 19:08:16 [WARN] Arc.app not installed. Skipping.
+2026-07-29 19:08:16 [INFO] Adding Ghostty.app
+2026-07-29 19:08:16 [INFO] Adding Cursor.app
+2026-07-29 19:08:16 [INFO] Adding Visual Studio Code.app
+2026-07-29 19:08:16 [INFO] Adding CotEditor.app
+2026-07-29 19:08:16 [INFO] Adding ChatGPT.app
+2026-07-29 19:08:16 [INFO] Adding Claude.app
+2026-07-29 19:08:16 [INFO] Adding DBeaver.app
+2026-07-29 19:08:16 [INFO] Adding Notion.app
+2026-07-29 19:08:16 [INFO] Adding Notion Calendar.app
+2026-07-29 19:08:16 [INFO] Adding Obsidian.app
+2026-07-29 19:08:16 [INFO] Adding 1Password.app
+2026-07-29 19:08:16 [INFO] Adding Granola.app
+2026-07-29 19:08:16 [INFO] Adding Trello.app
+2026-07-29 19:08:16 [INFO] Adding Raycast.app
+2026-07-29 19:08:16 [SUCCESS] Dock configured.
+2026-07-29 19:08:16 [SUCCESS] Update completed.
