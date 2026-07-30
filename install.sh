@@ -47,13 +47,22 @@ success "Xcode Command Line Tools installed."
 # CotEditor preferences
 ################################################################################
 
-echo "Applying CotEditor preferences..."
+COTEDITOR_PLIST="$HOME/Library/Preferences/com.coteditor.CotEditor.plist"
 
-killall CotEditor >/dev/null 2>&1 || true
-killall cfprefsd >/dev/null 2>&1 || true
+if [[ -d "/Applications/CotEditor.app" || -d "$HOME/Applications/CotEditor.app" ]]; then
+    if [[ -f "${COTEDITOR_PLIST}" ]]; then
+        echo "Applying CotEditor preferences..."
 
-defaults import com.coteditor.CotEditor \
-    "$HOME/Library/Preferences/com.coteditor.CotEditor.plist"
+        killall CotEditor >/dev/null 2>&1 || true
+        killall cfprefsd >/dev/null 2>&1 || true
+
+        defaults import com.coteditor.CotEditor "${COTEDITOR_PLIST}"
+    else
+        echo "CotEditor preferences not found; skipping."
+    fi
+else
+    echo "CotEditor is not installed; skipping preferences."
+fi
 
 ################################################################################
 # Homebrew
