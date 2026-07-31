@@ -2,7 +2,6 @@
 # AI
 ###############################################################################
 
-brew "ollama"
 brew "ffmpeg"
 brew "sox"
 brew "imagemagick"

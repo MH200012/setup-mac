@@ -133,19 +133,37 @@ doctor_homebrew() {
 
 install_brew_packages() {
 
-    local brewfiles=(
-        Brewfile
-        Brewfile.dev
-        Brewfile.ai
-        Brewfile.database
-        Brewfile.cloud
-        Brewfile.optional
-        Brewfile.productivity
+    local packages_config="${BOOTSTRAP_ROOT}/config/packages.toml"
+    local package_sets=(
+        "core:Brewfile"
+        "dev:Brewfile.dev"
+        "ai:Brewfile.ai"
+        "database:Brewfile.database"
+        "cloud:Brewfile.cloud"
+        "optional:Brewfile.optional"
+        "productivity:Brewfile.productivity"
     )
 
-    for file in "${brewfiles[@]}"; do
+    local item key file enabled
+    for item in "${package_sets[@]}"; do
+        key="${item%%:*}"
+        file="${item#*:}"
 
         [[ ! -f "${BOOTSTRAP_ROOT}/${file}" ]] && continue
+
+        enabled="$(awk -F= -v key="${key}" '
+            $1 ~ "^[[:space:]]*" key "[[:space:]]*$" {
+                value=$2
+                gsub(/[[:space:]]/, "", value)
+                print value
+                exit
+            }
+        ' "${packages_config}")"
+
+        if [[ "${enabled}" != "true" ]]; then
+            log_info "Skipping ${file} (${key}=false or unset)"
+            continue
+        fi
 
         log_info "Installing ${file}"
 
@@ -190,4 +208,3 @@ setup_homebrew() {
     cleanup_homebrew || true
 
 }
-

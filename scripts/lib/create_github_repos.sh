@@ -2,9 +2,9 @@
 
 set -e
 
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-source "${SCRIPT_DIR}/lib/repositories.sh"
+source "${SCRIPT_DIR}/repositories.sh"
 
 mkdir -p "$workspace"
 

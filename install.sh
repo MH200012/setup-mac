@@ -128,7 +128,7 @@ if [[ ! -d "${TARGET_DIR}/.git" ]]; then
     git clone "https://github.com/${REPO_OWNER}/${REPO_NAME}.git" "${TARGET_DIR}"
 else
     log "Updating ${REPO_NAME}..."
-    git -C "${TARGET_DIR}" pull
+    git -C "${TARGET_DIR}" pull --ff-only
 fi
 
 success "Repository ready."
@@ -147,5 +147,11 @@ if [[ ! -f bootstrap.sh ]]; then
     echo "bootstrap.sh not found."
     exit 1
 fi
+
+if [[ -d "${HOME}/setup-mac/.git" && "${HOME}/setup-mac" != "${TARGET_DIR}" ]]; then
+    log "Legacy clone detected at ${HOME}/setup-mac; use ${TARGET_DIR} as the canonical repository."
+fi
+
+./bootstrap.sh
 
 success "Environment setup completed."

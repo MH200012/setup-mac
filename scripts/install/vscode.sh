@@ -84,7 +84,9 @@ install_vscode() {
         "mtxr.sqltools"
     )
 
-    local installed
-    installed="$(code --list-extensions)"
+    local ext
+    for ext in "${extensions[@]}"; do
+        install_extension "${ext}"
+    done
 
 }

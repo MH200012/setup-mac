@@ -10,4 +10,6 @@ database = true
 
 cloud = true
 
+productivity = true
+
 optional = false

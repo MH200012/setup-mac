@@ -11,7 +11,11 @@
 #
 # ==============================================================================
 
-set -Eeuxo pipefail
+set -Eeuo pipefail
+
+if [[ "${DEBUG:-false}" == "true" ]]; then
+    set -x
+fi
 
 ################################################################################
 # Paths
@@ -38,7 +42,6 @@ source "${BOOTSTRAP_ROOT}/scripts/install/mise.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/vscode.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/cursor.sh"
-source "${BOOTSTRAP_ROOT}/scripts/install/github_cli.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/macwhisper.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/raycast.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/trello.sh"

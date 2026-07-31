@@ -104,12 +104,13 @@ ensure_sudo() {
 
     sudo -v
 
-    (
-        while true; do
-            sudo -n true >/dev/null 2>&1 || exit 0
-            sleep 60
-        done
-    ) &
+    while true; do
+        sudo -n -v
+        sleep 30
+    done 2>/dev/null &
+
+    SUDO_KEEPALIVE_PID=$!
+    trap 'kill "${SUDO_KEEPALIVE_PID}" 2>/dev/null || true' EXIT
 }
 
 ################################################################################
