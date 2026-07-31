@@ -159,7 +159,7 @@ bootstrap() {
     log_step "Installing Homebrew"
 
     setup_homebrew
-    
+
     log_step "Installing Trello"
     
     setup_trello

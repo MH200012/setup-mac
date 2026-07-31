@@ -23,6 +23,7 @@ source "${BOOTSTRAP_ROOT}/scripts/install/homebrew.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/mise.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/dotfiles.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/arc.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/trello.sh"
 source "${BOOTSTRAP_ROOT}/scripts/macos/dock.sh"
 
@@ -33,6 +34,9 @@ update_homebrew
 
 log_step "Installing Homebrew Packages"
 install_brew_packages
+
+log_step "Installing Arc"
+setup_arc
 
 log_step "Installing Trello"
 setup_trello
