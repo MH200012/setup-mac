@@ -43,6 +43,7 @@ source "${BOOTSTRAP_ROOT}/scripts/install/uv.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/vscode.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/cursor.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/macwhisper.sh"
+source "${BOOTSTRAP_ROOT}/scripts/install/granola.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/raycast.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/trello.sh"
 source "${BOOTSTRAP_ROOT}/scripts/install/dotfiles.sh"
@@ -167,6 +168,10 @@ bootstrap() {
     log_step "Installing Macwhisper"
     
     setup_macwhisper
+
+    log_step "Installing Granola"
+
+    setup_granola
     
     log_step "Installing Raycast"
     
